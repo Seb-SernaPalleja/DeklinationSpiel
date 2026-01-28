@@ -235,7 +235,7 @@
 
             // Configuración
             const [config, setConfig] = useState({
-                level: 'B2',
+                levels: { B1: true, B2: true , C1: true, C2: false },
                 cases: { Akk: true, Dat: true, Gen: true, Nom: true },
                 showGenderHint: false,
                 showTags: false,
@@ -262,13 +262,14 @@
                 const negatedCases = Object.entries(config.cases)
                                               .filter(([_, value]) => value === false)
                                               .map(([key]) => key);
+                const acceptedLevels = Object.entries(config.levels)
+                                              .filter(([_, value]) => value === true)
+                                              .map(([key]) => key);
+                
                 return rawPool.filter(q => {
-                    
                     if (negatedCases.some(caseBanned => q.case.includes(caseBanned))) return false;
                     const levels = ['B1', 'B2', 'C1', 'C2'];
-                    const qLvlIdx = levels.indexOf(q.level);
-                    const cfgLvlIdx = levels.indexOf(config.level);
-                    if (Math.abs(qLvlIdx - cfgLvlIdx) > 1 && qLvlIdx > cfgLvlIdx) return false; 
+                    if(!acceptedLevels.some( x => q.level == x)) return false;
                     const hasAdjSlot = q.slots.some(s => s.type === 'adj');
                     if (!config.includeAdjectives && hasAdjSlot) return false;
                     return true;
@@ -420,18 +421,18 @@
                                 {/* Nivel */}
                                 <div>
                                     <label className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 block">{T.level}</label>
-                                    <div className="flex bg-slate-100 rounded-xl p-1">
-                                        {['B1', 'B2', 'C1', 'C2'].map(lvl => (
+                                    <div className="flex gap-2">
+                                        {['B1', 'B2', 'C1', 'C2'].map(c => (
                                             <button 
-                                                key={lvl}
-                                                onClick={() => setConfig({...config, level: lvl})}
-                                                className={`flex-1 py-2 text-sm font-bold rounded-lg transition-all ${
-                                                    config.level === lvl 
-                                                    ? 'bg-white text-blue-600 shadow-sm' 
-                                                    : 'text-slate-500 hover:text-slate-700'
+                                                key={c}
+                                                onClick={() => setConfig(prev => ({ ...prev, levels: { ...prev.levels, [c]: !prev.levels[c] } }))}
+                                                className={`flex-1 py-2 border-2 rounded-xl font-bold text-sm transition-all ${
+                                                    config.levels[c] 
+                                                    ? 'border-blue-500 bg-blue-50 text-blue-700' 
+                                                    : 'border-slate-200 text-slate-400 hover:border-slate-300'
                                                 }`}
                                             >
-                                                {lvl}
+                                                {c}
                                             </button>
                                         ))}
                                     </div>
