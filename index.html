@@ -236,7 +236,7 @@
             // Configuración
             const [config, setConfig] = useState({
                 level: 'B2',
-                cases: { Akk: true, Dat: true, Gen: false, Nom: false },
+                cases: { Akk: true, Dat: true, Gen: true, Nom: true },
                 showGenderHint: true,
                 showTags: true,
                 includeAdjectives: true
@@ -259,8 +259,12 @@
             // Obtener preguntas filtradas en el idioma actual
             const getInitialStack = () => {
                 const rawPool = getQuestionPool(lang);
+                const negatedCases = Object.entries(cases)
+                                              .filter(([_, value]) => value === false)
+                                              .map(([key]) => key);
                 return rawPool.filter(q => {
-                    if (!config.cases[q.case]) return false;
+                    
+                    if (!negatedCases.some(caseBanned => q.includes(caseBanned))) return false;
                     const levels = ['B1', 'B2', 'C1', 'C2'];
                     const qLvlIdx = levels.indexOf(q.level);
                     const cfgLvlIdx = levels.indexOf(config.level);
