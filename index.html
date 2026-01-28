@@ -264,7 +264,7 @@
                                               .map(([key]) => key);
                 return rawPool.filter(q => {
                     
-                    if (!negatedCases.some(caseBanned => q.includes(caseBanned))) return false;
+                    if (negatedCases.some(caseBanned => q.includes(caseBanned))) return false;
                     const levels = ['B1', 'B2', 'C1', 'C2'];
                     const qLvlIdx = levels.indexOf(q.level);
                     const cfgLvlIdx = levels.indexOf(config.level);
