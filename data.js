@@ -2496,98 +2496,7 @@ var data = [
             { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuer", "neues"] }
         ]
     },
-            
-
-
-
-            
-            // --- NIVEL 2: ARTÍCULO + ADJETIVO ---
-            { 
-                id: 101, level: 'B1', case: 'Akk', category: 'Preposición Fija', 
-                text: "Wir {gehen} ohne ___ ___ Hund spazieren.", 
-                noun: "Hund (m)", 
-                verbDesc: {
-                    es: "Gehen: Ir/Caminar. Verbo de movimiento.",
-                    en: "Gehen: To go/walk. Verb of motion.",
-                    tr: "Gehen: Gitmek/Yürümek.",
-                    de: "Gehen: Bewegungsverb."
-                },
-                explanation: {
-                    es: "'Ohne' siempre rige Akkusativ. Masculino 'den', adjetivo '-en'.",
-                    en: "'Ohne' always takes Accusative. Masculine 'den', adjective '-en'.",
-                    tr: "'Ohne' her zaman Akkusativ alır. Eril 'den', sıfat '-en'.",
-                    de: "'Ohne' verlangt immer Akkusativ."
-                },
-                slots: [
-                    { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
-                    { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
-                ]
-            },
-            { 
-                id: 102, level: 'C1', case: 'Gen', category: 'Genitivo Posesivo', 
-                text: "Das ist das Auto {meines} ___ Bruders.", 
-                noun: "Bruder (m)", 
-                verbDesc: {
-                    es: "Sein: Ser/Estar. Verbo copulativo.",
-                    en: "Sein: To be. Copula verb.",
-                    tr: "Sein: Olmak.",
-                    de: "Sein: Kopulaverb."
-                },
-                explanation: {
-                    es: "Genitivo Masculino. Posesivo 'mein' -> 'meines', adjetivo mixto -> '-en'.",
-                    en: "Masculine Genitive. Possessive 'meines', mixed adjective -> '-en'.",
-                    tr: "Eril Genitiv. İyelik 'meines', karışık sıfat -> '-en'.",
-                    de: "Maskulin Genitiv. Possessiv 'meines', Adjektiv '-en'."
-                },
-                slots: [
-                    { type: 'adj', answer: "jüngeren", options: ["jüngere", "jüngeren", "jüngerem", "jüngeres"] }
-                ]
-            },
-
-            // --- NIVEL 3: COMPLEJO ---
-            { 
-                id: 202, level: 'B2', case: 'Akk', category: 'Wechselpräposition', 
-                text: "Er {hängt} das Bild an ___ ___ Wand.", 
-                noun: "Wand (f)", 
-                verbDesc: {
-                    es: "Hängen (transitivo): Colgar algo. Acción -> Akkusativ.",
-                    en: "Hängen (transitive): To hang something. Action -> Accusative.",
-                    tr: "Hängen (geçişli): Bir şeyi asmak. Hareket -> Akkusativ.",
-                    de: "Hängen (Aktion): Wohin? -> Akkusativ."
-                },
-                explanation: {
-                    es: "Hängen (acción) -> Wohin? -> Akkusativ. Die weiße Wand.",
-                    en: "Hängen (action) -> Wohin? -> Accusative. Die weiße Wand.",
-                    tr: "Hängen (hareket) -> Wohin? -> Akkusativ.",
-                    de: "Wohin? -> Akkusativ."
-                },
-                slots: [
-                    { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
-                    { type: 'adj', answer: "weiße", options: ["weiße", "weißen", "weißem", "weißes"] }
-                ]
-            },
-            {
-                id: 203, level: 'B2', case: 'Dat', category: 'Wechselpräposition',
-                text: "Das Bild {hängt} an ___ ___ Wand.",
-                noun: "Wand (f)",
-                verbDesc: {
-                    es: "Hängen (intransitivo): Estar colgado. Estado -> Dativ.",
-                    en: "Hängen (intransitive): To be hanging. State -> Dative.",
-                    tr: "Hängen (geçişsiz): Asılı olmak. Durum -> Dativ.",
-                    de: "Hängen (Position): Wo? -> Dativ."
-                },
-                explanation: {
-                    es: "Hängen (estado) -> Wo? -> Dativ. Der weißen Wand.",
-                    en: "Hängen (state) -> Wo? -> Dative. Der weißen Wand.",
-                    tr: "Hängen (durum) -> Wo? -> Dativ.",
-                    de: "Wo? -> Dativ."
-                },
-                slots: [
-                    { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
-                    { type: 'adj', answer: "weißen", options: ["weiße", "weißen", "weißem", "weißes"] }
-                ]
-            },
-            {
+{
         id: 126, level: 'B2', case: 'Dat', category: 'Superlativ + Präp',
         text: "In ___ ___ ___ (f) Stadt der Welt ist es laut.",
         noun: "Stadt (f)",
@@ -3109,5 +3018,2098 @@ var data = [
             { type: 'adj', answer: "Größter", options: ["Größte", "Größter", "Größten", "Größtes"] }
         ]
     },
+
+
+
+            
+
+            // --- NIVEL 2: ARTÍCULO + ADJETIVO ---
+            { 
+                id: 101, level: 'B1', case: 'Akk', category: 'Preposición Fija', 
+                text: "Wir {gehen} ohne ___ ___ Hund spazieren.", 
+                noun: "Hund (m)", 
+                verbDesc: {
+                    es: "Gehen: Ir/Caminar. Verbo de movimiento.",
+                    en: "Gehen: To go/walk. Verb of motion.",
+                    tr: "Gehen: Gitmek/Yürümek.",
+                    de: "Gehen: Bewegungsverb."
+                },
+                explanation: {
+                    es: "'Ohne' siempre rige Akkusativ. Masculino 'den', adjetivo '-en'.",
+                    en: "'Ohne' always takes Accusative. Masculine 'den', adjective '-en'.",
+                    tr: "'Ohne' her zaman Akkusativ alır. Eril 'den', sıfat '-en'.",
+                    de: "'Ohne' verlangt immer Akkusativ."
+                },
+                slots: [
+                    { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+                    { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
+                ]
+            },
+            { 
+                id: 102, level: 'C1', case: 'Gen', category: 'Genitivo Posesivo', 
+                text: "Das ist das Auto {meines} ___ Bruders.", 
+                noun: "Bruder (m)", 
+                verbDesc: {
+                    es: "Sein: Ser/Estar. Verbo copulativo.",
+                    en: "Sein: To be. Copula verb.",
+                    tr: "Sein: Olmak.",
+                    de: "Sein: Kopulaverb."
+                },
+                explanation: {
+                    es: "Genitivo Masculino. Posesivo 'mein' -> 'meines', adjetivo mixto -> '-en'.",
+                    en: "Masculine Genitive. Possessive 'meines', mixed adjective -> '-en'.",
+                    tr: "Eril Genitiv. İyelik 'meines', karışık sıfat -> '-en'.",
+                    de: "Maskulin Genitiv. Possessiv 'meines', Adjektiv '-en'."
+                },
+                slots: [
+                    { type: 'adj', answer: "jüngeren", options: ["jüngere", "jüngeren", "jüngerem", "jüngeres"] }
+                ]
+            },
+
+            {
+        id: 151, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Ich {stelle} die Leiter {an} ___ ___ Wand.",
+        noun: "Wand (f)",
+        verbDesc: {
+            es: "Stellen: Poner (vertical). Indica movimiento/acción hacia un lugar.",
+            en: "Stellen: To place (upright). Indicates motion/action towards a location.",
+            tr: "Stellen: Dik koymak. Bir yere doğru hareketi/eylemi belirtir.",
+            de: "Stellen: Bewegungsverb (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento (Wohin?) -> Akkusativ. Femenino 'die', adjetivo débil '-e'.",
+            en: "Motion (Whereto?) -> Accusative. Feminine 'die', weak adjective '-e'.",
+            tr: "Hareket (Nereye?) -> Akkusativ. Dişil 'die', zayıf sıfat '-e'.",
+            de: "Bewegung (Wohin?) -> Akkusativ. Feminin 'die', Adjektiv '-e'."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "weiße", options: ["weiße", "weißen", "weißer", "weißes"] }
+        ]
+    },
+    {
+        id: 152, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Die Leiter {steht} {an} ___ ___ Wand.",
+        noun: "Wand (f)",
+        verbDesc: {
+            es: "Stehen: Estar de pie. Indica posición estática.",
+            en: "Stehen: To stand. Indicates a static position.",
+            tr: "Stehen: Ayakta durmak. Statik konumu belirtir.",
+            de: "Stehen: Statisches Verb (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación (Wo?) -> Dativo. Femenino 'der', adjetivo débil '-en'.",
+            en: "Location (Where?) -> Dative. Feminine 'der', weak adjective '-en'.",
+            tr: "Konum (Nerede?) -> Dativ. Dişil 'der', zayıf sıfat '-en'.",
+            de: "Lage (Wo?) -> Dativ. Feminin 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "dem"] },
+            { type: 'adj', answer: "weißen", options: ["weiße", "weißen", "weißer", "weißes"] }
+        ]
+    },
+    {
+        id: 153, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Er {setzt} sich {neben} ___ ___ Journalisten.",
+        noun: "Journalist (m)",
+        verbDesc: {
+            es: "Sich setzen: Sentarse. Indica movimiento hacia una posición.",
+            en: "Sich setzen: To sit down. Indicates motion towards a position.",
+            tr: "Sich setzen: Oturmak (eylem). Bir konuma doğru hareketi belirtir.",
+            de: "Sich setzen: Bewegungsverb (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento -> Akkusativ. Journalist es N-Deklination. Adjetivo débil '-en'.",
+            en: "Motion -> Accusative. Journalist is N-Declension. Weak adjective '-en'.",
+            tr: "Hareket -> Akkusativ. Journalist N-çekimidir. Zayıf sıfat '-en'.",
+            de: "Bewegung -> Akkusativ. Journalist ist N-Deklination. Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "bekannten", options: ["bekannte", "bekannten", "bekannter", "bekanntes"] }
+        ]
+    },
+    {
+        id: 154, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Er {sitzt} {neben} ___ ___ Journalisten.",
+        noun: "Journalist (m)",
+        verbDesc: {
+            es: "Sitzen: Estar sentado. Indica posición estática.",
+            en: "Sitzen: To be sitting. Indicates a static position.",
+            tr: "Sitzen: Oturuyor olmak. Statik konumu belirtir.",
+            de: "Sitzen: Statisches Verb (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación -> Dativo. Journalist es N-Deklination. Adjetivo débil '-en'.",
+            en: "Location -> Dative. Journalist is N-Declension. Weak adjective '-en'.",
+            tr: "Konum -> Dativ. Journalist N-çekimidir. Zayıf sıfat '-en'.",
+            de: "Lage -> Dativ. Journalist ist N-Deklination. Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "bekannten", options: ["bekannte", "bekannten", "bekannter", "bekanntes"] }
+        ]
+    },
+    {
+        id: 155, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Wir {hängen} das Bild {über} ___ ___ Sofa.",
+        noun: "Sofa (n)",
+        verbDesc: {
+            es: "Hängen (transitivo): Colgar algo. Indica acción/movimiento.",
+            en: "Hängen (transitive): To hang something. Indicates action/motion.",
+            tr: "Hängen (geçişli): Bir şeyi asmak. Eylem/hareket belirtir.",
+            de: "Hängen: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento -> Akkusativ neutro. Artículo 'das', adjetivo débil '-e'.",
+            en: "Motion -> Neuter Accusative. Article 'das', weak adjective '-e'.",
+            tr: "Hareket -> Nötr Akkusativ. Tanımlayıcı 'das', zayıf sıfat '-e'.",
+            de: "Bewegung -> Neutrum Akkusativ. Artikel 'das', Adjektiv '-e'."
+        },
+        slots: [
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "neue", options: ["neue", "neuen", "neuem", "neuer"] }
+        ]
+    },
+    {
+        id: 156, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Das Bild {hängt} {über} ___ ___ Sofa.",
+        noun: "Sofa (n)",
+        verbDesc: {
+            es: "Hängen (intransitivo): Estar colgado. Indica estado/posición.",
+            en: "Hängen (intransitive): To be hanging. Indicates state/position.",
+            tr: "Hängen (geçişsiz): Asılı durmak. Durum/konum belirtir.",
+            de: "Hängen: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación -> Dativo neutro. Artículo 'dem', adjetivo débil '-en'.",
+            en: "Location -> Neuter Dative. Article 'dem', weak adjective '-en'.",
+            tr: "Konum -> Nötr Dativ. Tanımlayıcı 'dem', zayıf sıfat '-en'.",
+            de: "Lage -> Neutrum Dativ. Artikel 'dem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neuer"] }
+        ]
+    },
+    {
+        id: 157, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Die Kinder {laufen} {zwischen} ___ ___ Bäume.",
+        noun: "Bäume (pl)",
+        verbDesc: {
+            es: "Laufen (con meta): Correr hacia un lugar específico.",
+            en: "Laufen (with target): To run towards a specific spot.",
+            tr: "Laufen (hedefle): Belirli bir yere doğru koşmak.",
+            de: "Laufen: Richtung (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento hacia el espacio entre los árboles -> Akkusativ plural 'die'.",
+            en: "Motion into the space between the trees -> Plural Accusative 'die'.",
+            tr: "Ağaçların arasındaki boşluğa doğru hareket -> Çoğul Akkusativ 'die'.",
+            de: "Richtung zwischen die Bäume -> Plural Akkusativ 'die'."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "hohen", options: ["hohe", "hohen", "hoher", "hohes"] }
+        ]
+    },
+    {
+        id: 158, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Die Kinder {spielen} {zwischen} ___ ___ Bäumen.",
+        noun: "Bäumen (pl)",
+        verbDesc: {
+            es: "Spielen: Jugar. La acción ocurre dentro de un lugar determinado.",
+            en: "Spielen: To play. The action happens within a specific location.",
+            tr: "Spielen: Oynamak. Eylem belirli bir konumun içinde gerçekleşir.",
+            de: "Spielen: Ort (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación -> Dativo plural 'den'. El sustantivo Bäume añade '-n'.",
+            en: "Location -> Plural Dative 'den'. The noun Bäume adds '-n'.",
+            tr: "Konum -> Çoğul Dativ 'den'. Bäume ismi '-n' alır.",
+            de: "Lage -> Plural Dativ 'den'. Substantiv Bäume mit N-Endung."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "hohen", options: ["hohe", "hohen", "hoher", "hohes"] }
+        ]
+    },
+    {
+        id: 159, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Ich {lege} den Teppich {unter} ___ ___ Tisch.",
+        noun: "Tisch (m)",
+        verbDesc: {
+            es: "Legen: Poner/Colocar (horizontal). Indica movimiento.",
+            en: "Legen: To lay/place (horizontally). Indicates motion.",
+            tr: "Legen: Yatay koymak. Hareket belirtir.",
+            de: "Legen: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento -> Akkusativ masculino. Artículo 'den', adjetivo débil '-en'.",
+            en: "Motion -> Masculine Accusative. Article 'den', weak adjective '-en'.",
+            tr: "Hareket -> Eril Akkusativ. Tanımlayıcı 'den', zayıf sıfat '-en'.",
+            de: "Bewegung -> Maskulin Akkusativ. Artikel 'den', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 160, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Der Teppich {liegt} {unter} ___ ___ Tisch.",
+        noun: "Tisch (m)",
+        verbDesc: {
+            es: "Liegen: Estar tumbado/colocado. Indica posición.",
+            en: "Liegen: To lie. Indicates position.",
+            tr: "Liegen: Yatıyor/duruyor olmak. Konum belirtir.",
+            de: "Liegen: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación -> Dativo masculino. Artículo 'dem', adjetivo débil '-en'.",
+            en: "Location -> Masculine Dative. Article 'dem', weak adjective '-en'.",
+            tr: "Konum -> Eril Dativ. Tanımlayıcı 'dem', zayıf sıfat '-en'.",
+            de: "Lage -> Maskulin Dativ. Artikel 'dem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 161, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Wir {fahren} {hinter} ___ ___ LKW.",
+        noun: "LKW (m)",
+        verbDesc: {
+            es: "Fahren: Conducir/Ir. Indica cambio de posición.",
+            en: "Fahren: To drive/go. Indicates change of position.",
+            tr: "Fahren: Araçla gitmek. Konum değişikliğini belirtir.",
+            de: "Fahren: Bewegung (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento (poniéndose detrás) -> Akkusativ masculino 'den'.",
+            en: "Motion (getting behind) -> Masculine Accusative 'den'.",
+            tr: "Hareket (arkasına geçme) -> Eril Akkusativ 'den'.",
+            de: "Bewegung (dahinter fahren) -> Maskulin Akkusativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "langsamen", options: ["langsame", "langsamen", "langsamer", "langsames"] }
+        ]
+    },
+    {
+        id: 162, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Wir {stehen} im Stau {hinter} ___ ___ LKW.",
+        noun: "LKW (m)",
+        verbDesc: {
+            es: "Stehen: Estar parado/detenido. Indica ubicación fija.",
+            en: "Stehen: To stand/be stopped. Indicates fixed location.",
+            tr: "Stehen: Durmak. Sabit konumu belirtir.",
+            de: "Stehen: Statisch (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación (atrapado detrás) -> Dativo masculino 'dem'.",
+            en: "Location (stuck behind) -> Masculine Dative 'dem'.",
+            tr: "Konum (arkasında kalmış) -> Eril Dativ 'dem'.",
+            de: "Lage (dahinter stehen) -> Maskulin Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "langsamen", options: ["langsame", "langsamen", "langsamer", "langsames"] }
+        ]
+    },
+    {
+        id: 163, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Er {wirft} den Brief {in} ___ ___ Briefkasten.",
+        noun: "Briefkasten (m)",
+        verbDesc: {
+            es: "Werfen: Tirar/Lanzar. Indica movimiento hacia un interior.",
+            en: "Werfen: To throw. Indicates motion into an interior.",
+            tr: "Werfen: Atmak. Bir içeriğe doğru hareketi belirtir.",
+            de: "Werfen: Richtung (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento hacia adentro -> Akkusativ masculino 'den'.",
+            en: "Motion inwards -> Masculine Accusative 'den'.",
+            tr: "İçeriye doğru hareket -> Eril Akkusativ 'den'.",
+            de: "Bewegung hinein -> Maskulin Akkusativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "gelben", options: ["gelbe", "gelben", "gelber", "gelbes"] }
+        ]
+    },
+    {
+        id: 164, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Der Brief {liegt} {in} ___ ___ Briefkasten.",
+        noun: "Briefkasten (m)",
+        verbDesc: {
+            es: "Liegen: Estar (en reposo). Indica ubicación dentro de algo.",
+            en: "Liegen: To be (at rest). Indicates location within something.",
+            tr: "Liegen: Bulunmak. Bir şeyin içindeki konumu belirtir.",
+            de: "Liegen: Ort (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación interior -> Dativo masculino 'dem'.",
+            en: "Interior location -> Masculine Dative 'dem'.",
+            tr: "İç konum -> Eril Dativ 'dem'.",
+            de: "Lage darin -> Maskulin Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "gelben", options: ["gelbe", "gelben", "gelber", "gelbes"] }
+        ]
+    },
+    {
+        id: 165, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Ich {lehne} den Stock {an} ___ ___ Zaun.",
+        noun: "Zaun (m)",
+        verbDesc: {
+            es: "Lehnen: Apoyar algo contra una superficie. Indica acción.",
+            en: "Lehnen: To lean something against a surface. Indicates action.",
+            tr: "Lehnen: Bir şeyi bir yüzeye yaslamak. Eylem belirtir.",
+            de: "Lehnen: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento de apoyo -> Akkusativ masculino 'den'.",
+            en: "Leaning motion -> Masculine Accusative 'den'.",
+            tr: "Yaslama hareketi -> Eril Akkusativ 'den'.",
+            de: "Bewegung (dran lehnen) -> Maskulin Akkusativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "hölzernen", options: ["hölzerne", "hölzernen", "hölzerner", "hölzernes"] }
+        ]
+    },
+    {
+        id: 166, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Der Stock {lehnt} {an} ___ ___ Zaun.",
+        noun: "Zaun (m)",
+        verbDesc: {
+            es: "Lehnen (intransitivo): Estar apoyado. Indica posición.",
+            en: "Lehnen (intransitive): To be leaning. Indicates position.",
+            tr: "Lehnen (geçişsiz): Yaslanmış durmak. Konum belirtir.",
+            de: "Lehnen: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Posición apoyada -> Dativo masculino 'dem'.",
+            en: "Leaning position -> Masculine Dative 'dem'.",
+            tr: "Yaslanmış konum -> Eril Dativ 'dem'.",
+            de: "Lage (dran lehnen) -> Maskulin Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "hölzernen", options: ["hölzerne", "hölzernen", "hölzerner", "hölzernes"] }
+        ]
+    },
+    {
+        id: 167, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Wir {setzen} uns {vor} ___ ___ Fernseher.",
+        noun: "Fernseher (m)",
+        verbDesc: {
+            es: "Sich setzen: Sentarse. Indica cambio de lugar.",
+            en: "Sich setzen: To sit down. Indicates change of place.",
+            tr: "Sich setzen: Oturmak. Yer değişikliğini belirtir.",
+            de: "Sich setzen: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento hacia el frente -> Akkusativ masculino 'den'.",
+            en: "Motion to the front -> Masculine Accusative 'den'.",
+            tr: "Öne doğru hareket -> Eril Akkusativ 'den'.",
+            de: "Bewegung (davor setzen) -> Maskulin Akkusativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 168, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Wir {sitzen} {vor} ___ ___ Fernseher.",
+        noun: "Fernseher (m)",
+        verbDesc: {
+            es: "Sitzen: Estar sentado. Indica ubicación.",
+            en: "Sitzen: To be sitting. Indicates location.",
+            tr: "Sitzen: Oturuyor olmak. Konumu belirtir.",
+            de: "Sitzen: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación al frente -> Dativo masculino 'dem'.",
+            en: "Location at the front -> Masculine Dative 'dem'.",
+            tr: "Öndeki konum -> Eril Dativ 'dem'.",
+            de: "Lage (davor sitzen) -> Maskulin Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 169, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Das Flugzeug {fliegt} {über} ___ ___ Alpen.",
+        noun: "Alpen (pl)",
+        verbDesc: {
+            es: "Fliegen (meta): Cruzar por encima de algo.",
+            en: "Fliegen (target): To cross over something.",
+            tr: "Fliegen (hedef): Bir şeyin üzerinden geçmek.",
+            de: "Fliegen: Richtung (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento cruzando los Alpes -> Akkusativ plural 'die'.",
+            en: "Motion crossing the Alps -> Plural Accusative 'die'.",
+            tr: "Alpler'i geçen hareket -> Çoğul Akkusativ 'die'.",
+            de: "Bewegung über die Alpen -> Plural Akkusativ 'die'."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "hohen", options: ["hohe", "hohen", "hoher", "hohes"] }
+        ]
+    },
+    {
+        id: 170, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Die Wolken {schweben} {über} ___ ___ Alpen.",
+        noun: "Alpen (pl)",
+        verbDesc: {
+            es: "Schweben: Flotar/Planear. Indica posición en el aire.",
+            en: "Schweben: To hover/float. Indicates position in the air.",
+            tr: "Schweben: Süzülmek. Havada asılı kalma konumunu belirtir.",
+            de: "Schweben: Ort (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación estática encima de -> Dativo plural 'den'.",
+            en: "Static location above -> Plural Dative 'den'.",
+            tr: "Üzerindeki statik konum -> Çoğul Dativ 'den'.",
+            de: "Lage über den Alpen -> Plural Dativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "hohen", options: ["hohe", "hohen", "hoher", "hohes"] }
+        ]
+    },
+    {
+        id: 171, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Ich {schreibe} die Notiz {an} ___ ___ Tafel.",
+        noun: "Tafel (f)",
+        verbDesc: {
+            es: "Schreiben an: Escribir en (superficie vertical). Indica poner información ahí.",
+            en: "Schreiben an: To write on (vertical surface). Indicates putting info there.",
+            tr: "Schreiben an: (Dikey yüzeye) yazmak. Bilgiyi oraya koymayı belirtir.",
+            de: "Schreiben: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Acción de dirigir la escritura hacia -> Akkusativ femenino 'die'.",
+            en: "Action of directing writing towards -> Feminine Accusative 'die'.",
+            tr: "Yazıyı yöneltme eylemi -> Dişil Akkusativ 'die'.",
+            de: "Bewegung (dran schreiben) -> Feminin Akkusativ 'die'."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "grüne", options: ["grüne", "grünen", "grüner", "grünes"] }
+        ]
+    },
+    {
+        id: 172, level: 'B2', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Die Notiz {steht} {an} ___ ___ Tafel.",
+        noun: "Tafel (f)",
+        verbDesc: {
+            es: "Stehen: Estar escrito/puesto. Indica ubicación de la información.",
+            en: "Stehen: To be written/placed. Indicates location of the info.",
+            tr: "Stehen: Yazılı/asılı durmak. Bilginin konumunu belirtir.",
+            de: "Stehen: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación de lo escrito -> Dativo femenino 'der'.",
+            en: "Location of the writing -> Feminine Dative 'der'.",
+            tr: "Yazının konumu -> Dişil Dativ 'der'.",
+            de: "Lage (dran stehen) -> Feminin Dativ 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "grünen", options: ["grüne", "grünen", "grüner", "grünes"] }
+        ]
+    },
+    {
+        id: 173, level: 'C1', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Wir {verstecken} uns {hinter} ___ ___ Vorhang.",
+        noun: "Vorhang (m)",
+        verbDesc: {
+            es: "Sich verstecken: Esconderse. Indica ir hacia un escondite.",
+            en: "Sich verstecken: To hide. Indicates going into a hiding place.",
+            tr: "Sich verstecken: Saklanmak. Bir saklanma yerine gitmeyi belirtir.",
+            de: "Sich verstecken: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento para quedar oculto -> Akkusativ masculino 'den'.",
+            en: "Motion to become hidden -> Masculine Accusative 'den'.",
+            tr: "Gizlenmek için yapılan hareket -> Eril Akkusativ 'den'.",
+            de: "Bewegung (dahinter verstecken) -> Maskulin Akkusativ 'den'."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "schweren", options: ["schwere", "schweren", "schwerer", "schweres"] }
+        ]
+    },
+    {
+        id: 174, level: 'C1', case: 'Dat', category: 'Wechselpräposition (Wo?)',
+        text: "Wir {sind} {hinter} ___ ___ Vorhang versteckt.",
+        noun: "Vorhang (m)",
+        verbDesc: {
+            es: "Versteckt sein: Estar escondido. Indica estado/posición.",
+            en: "Versteckt sein: To be hidden. Indicates state/position.",
+            tr: "Versteckt sein: Saklanmış olmak. Durum/konum belirtir.",
+            de: "Versteckt sein: Dativ (Wo?)."
+        },
+        explanation: {
+            es: "Ubicación oculta -> Dativo masculino 'dem'.",
+            en: "Hidden location -> Masculine Dative 'dem'.",
+            tr: "Gizli konum -> Eril Dativ 'dem'.",
+            de: "Lage (dahinter sein) -> Maskulin Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "schweren", options: ["schwere", "schweren", "schwerer", "schweres"] }
+        ]
+    },
+    {
+        id: 175, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
+        text: "Ich {werfe} den Schlüssel {vor} ___ ___ Tür.",
+        noun: "Tür (f)",
+        verbDesc: {
+            es: "Werfen: Lanzar. Indica trayectoria hacia un lugar.",
+            en: "Werfen: To throw. Indicates trajectory towards a spot.",
+            tr: "Werfen: Atmak. Bir yere doğru yörüngeyi belirtir.",
+            de: "Werfen: Akkusativ (Wohin?)."
+        },
+        explanation: {
+            es: "Movimiento hacia el frente de la puerta -> Akkusativ femenino 'die'.",
+            en: "Motion to the front of the door -> Feminine Accusative 'die'.",
+            tr: "Kapının önüne doğru hareket -> Dişil Akkusativ 'die'.",
+            de: "Bewegung (davor werfen) -> Feminin Akkusativ 'die'."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "geschlossene", options: ["geschlossene", "geschlossenen", "geschlossener", "geschlossenes"] }
+        ]
+    },
+            {
+        id: 176, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Anlässlich} ___ ___ Jubiläums gab es ein Fest.",
+        noun: "Jubiläum (n)",
+        verbDesc: {
+            es: "Anlässlich: Con motivo de. Rige siempre Genitivo.",
+            en: "Anlässlich: On the occasion of. Always takes Genitive.",
+            tr: "Anlässlich: Vesilesiyle. Daima Genitiv alır.",
+            de: "Anlässlich + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo neutro. Artículo 'des', adjetivo débil '-en'.",
+            en: "Neuter Genitive. Article 'des', weak adjective '-en'.",
+            tr: "Nötr Genitiv. Tanımlayıcı 'des', zayıf sıfat '-en'.",
+            de: "Neutrum Genitiv. Artikel 'des', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "fünfzigsten", options: ["fünfzigste", "fünfzigsten", "fünfzigster", "fünfzigstes"] }
+        ]
+    },
+    {
+        id: 177, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Infolge} ___ ___ Streiks fielen die Züge aus.",
+        noun: "Streik (m)",
+        verbDesc: {
+            es: "Infolge: Como consecuencia de. Rige Genitivo.",
+            en: "Infolge: As a result of. Takes Genitive.",
+            tr: "Infolge: Sonucunda. Genitiv alır.",
+            de: "Infolge + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Artículo 'des', adjetivo débil '-en'.",
+            en: "Masculine Genitive. Article 'des', weak adjective '-en'.",
+            tr: "Eril Genitiv. Tanımlayıcı 'des', zayıf sıfat '-en'.",
+            de: "Maskulin Genitiv. Artikel 'des', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "langen", options: ["lange", "langen", "langer", "langes"] }
+        ]
+    },
+    {
+        id: 178, level: 'B2', case: 'Nom', category: 'Possessivpronomen (Ersatz)',
+        text: "Ist das dein Kuli? Nein, das ist ___.",
+        noun: "Kuli (m)",
+        verbDesc: {
+            es: "Sein: Ser. El posesivo aquí sustituye al sustantivo (Pronombre).",
+            en: "Sein: To be. The possessive replaces the noun here.",
+            tr: "Sein: Olmak. İyelik zamiri ismin yerine geçer.",
+            de: "Possessivpronomen als Ersatz."
+        },
+        explanation: {
+            es: "Sustituye a un masculino en Nominativo. Debe llevar terminación fuerte '-er' (meiner).",
+            en: "Replaces a masculine in Nominative. Must have strong ending '-er' (meiner).",
+            tr: "Nominativ eril bir ismin yerini alır. Güçlü ek '-er' (meiner) almalıdır.",
+            de: "Ersatz für Maskulin Nominativ -> 'meiner'."
+        },
+        slots: [ { type: 'art', answer: "meiner", options: ["mein", "meine", "meiner", "meines"] } ]
+    },
+    {
+        id: 179, level: 'B2', case: 'Akk', category: 'Possessivpronomen (Ersatz)',
+        text: "Ich habe meinen Kuli vergessen. Darf ich ___ benutzen?",
+        noun: "Kuli (m)",
+        verbDesc: {
+            es: "Benutzen: Usar. Rige Akkusativ.",
+            en: "Benutzen: To use. Takes Accusative.",
+            tr: "Benutzen: Kullanmak. Akkusativ alır.",
+            de: "Benutzen + Akkusativ."
+        },
+        explanation: {
+            es: "Sustituye a un masculino en Akkusativ. Terminación fuerte '-en' (deinen).",
+            en: "Replaces a masculine in Accusative. Strong ending '-en' (deinen).",
+            tr: "Akkusativ eril bir ismin yerini alır. Güçlü ek '-en' (deinen) almalıdır.",
+            de: "Ersatz für Maskulin Akkusativ -> 'deinen'."
+        },
+        slots: [ { type: 'art', answer: "deinen", options: ["dein", "deine", "deinem", "deinen"] } ]
+    },
+    {
+        id: 180, level: 'C1', case: 'Gen', category: 'Preposición Genitiva',
+        text: "{Unweit} ___ ___ Grenze liegt ein kleines Dorf.",
+        noun: "Grenze (f)",
+        verbDesc: {
+            es: "Unweit: No lejos de. Rige Genitivo.",
+            en: "Unweit: Not far from. Takes Genitive.",
+            tr: "Unweit: Yakınında. Genitiv alır.",
+            de: "Unweit + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo femenino. Artículo 'der', adjetivo débil '-en'.",
+            en: "Feminine Genitive. Article 'der', weak adjective '-en'.",
+            tr: "Dişil Genitiv. Tanımlayıcı 'der', zayıf sıfat '-en'.",
+            de: "Feminin Genitiv. Artikel 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "deutschen", options: ["deutsche", "deutschen", "deutscher", "deutsches"] }
+        ]
+    },
+    {
+        id: 181, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Abseits} ___ ___ Weges fanden wir Ruhe.",
+        noun: "Weg (m)",
+        verbDesc: {
+            es: "Abseits: Apartado de / Fuera de. Rige Genitivo.",
+            en: "Abseits: Away from. Takes Genitive.",
+            tr: "Abseits: Uzağında. Genitiv alır.",
+            de: "Abseits + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Artículo 'des', adjetivo débil '-en'.",
+            en: "Masculine Genitive. Article 'des', weak adjective '-en'.",
+            tr: "Eril Genitiv. Tanımlayıcı 'des', zayıf sıfat '-en'.",
+            de: "Maskulin Genitiv. Artikel 'des', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "vorgegebenen", options: ["vorgegebene", "vorgegebenen", "vorgegebener", "vorgegebenes"] }
+        ]
+    },
+    {
+        id: 182, level: 'B2', case: 'Dat', category: 'Verbo con Dativo (N-Dekl)',
+        text: "Ich vertraue ___ ___ Experten.",
+        noun: "Experte (m)",
+        verbDesc: {
+            es: "Vertrauen: Confiar. Rige Dativo.",
+            en: "Vertrauen: To trust. Takes Dative.",
+            tr: "Vertrauen: Güvenmek. Dativ alır.",
+            de: "Vertrauen + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Experte es N-Deklination. Posesivo 'meinem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Experte is N-declension. Possessive 'meinem', weak adjective '-en'.",
+            tr: "Eril Dativ. Experte N-çekimidir. İyelik 'meinem', zayıf sıfat '-en'.",
+            de: "Maskulin Dativ. Experte ist N-Deklination. Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinem", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neues"] }
+        ]
+    },
+    {
+        id: 183, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Ungeachtet} ___ ___ Warnung ging er ins Wasser.",
+        noun: "Warnung (f)",
+        verbDesc: {
+            es: "Ungeachtet: A pesar de / Pese a. Rige Genitivo.",
+            en: "Ungeachtet: Regardless of. Takes Genitive.",
+            tr: "Ungeachtet: Rağmen. Genitiv alır.",
+            de: "Ungeachtet + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo femenino. Artículo 'der', adjetivo débil '-en'.",
+            en: "Feminine Genitive. Article 'der', weak adjective '-en'.",
+            tr: "Dişil Genitiv. Tanımlayıcı 'der', zayıf sıfat '-en'.",
+            de: "Feminin Genitiv. Artikel 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "offiziellen", options: ["offizielle", "offiziellen", "offizieller", "offizielles"] }
+        ]
+    },
+    {
+        id: 184, level: 'C1', case: 'Nom', category: 'Adjetivo tras cuantificador',
+        text: "Es gibt {etwas} ___ zu feiern.",
+        noun: "Gutes (n)",
+        verbDesc: {
+            es: "Etwas: Algo. El adjetivo siguiente se sustantiva en neutro.",
+            en: "Etwas: Something. The following adjective is a neuter noun.",
+            tr: "Etwas: Bir şey. Sonrasındaki sıfat nötr isimleşir.",
+            de: "Etwas + substantiviertes Adjektiv."
+        },
+        explanation: {
+            es: "Tras 'etwas' el adjetivo lleva terminación fuerte neutra '-es'.",
+            en: "After 'etwas' the adjective takes the strong neuter ending '-es'.",
+            tr: "'Etwas'tan sonra sıfat güçlü nötr ek '-es' alır.",
+            de: "Starke Neutrum-Endung '-es'."
+        },
+        slots: [ { type: 'adj', answer: "Wichtiges", options: ["Wichtige", "Wichtigen", "Wichtiges", "Wichtiger"] } ]
+    },
+    {
+        id: 185, level: 'B2', case: 'Akk', category: 'Preposición Akkusativ',
+        text: "{Gegen} ___ ___ Willen handelte er.",
+        noun: "Wille (m)",
+        verbDesc: {
+            es: "Gegen: Contra. Rige Akkusativ.",
+            en: "Gegen: Against. Takes Accusative.",
+            tr: "Gegen: Karşı. Akkusativ alır.",
+            de: "Gegen + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ masculino. Wille es N-Deklination (Willen). Posesivo 'meinen'.",
+            en: "Masculine Accusative. Wille is N-declension. Possessive 'meinen'.",
+            tr: "Eril Akkusativ. Wille N-çekimidir. İyelik 'meinen'.",
+            de: "Maskulin Akkusativ. Wille ist N-Deklination (Willen). Posesiv 'meinen'."
+        },
+        slots: [ { type: 'art', answer: "meinen", options: ["mein", "meinen", "meinem", "meines"] } ]
+    },
+    {
+        id: 186, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Mithilfe} ___ ___ Zeugen wurde der Dieb gefasst.",
+        noun: "Zeuge (m)",
+        verbDesc: {
+            es: "Mithilfe: Con ayuda de. Rige Genitivo.",
+            en: "Mithilfe: With the help of. Takes Genitive.",
+            tr: "Mithilfe: Yardımıyla. Genitiv alır.",
+            de: "Mithilfe + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Zeuge es N-Deklination. Artículo 'eines', adjetivo mixto '-en'.",
+            en: "Masculine Genitive. Zeuge is N-declension. Article 'eines', mixed adjective '-en'.",
+            tr: "Eril Genitiv. Zeuge N-çekimidir. Tanımlayıcı 'eines', karma sıfat '-en'.",
+            de: "Maskulin Genitiv. Zeuge ist N-Deklination. Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "eines", options: ["einem", "einen", "eines", "ein"] },
+            { type: 'adj', answer: "mutigen", options: ["mutige", "mutigen", "mutiger", "mutiges"] }
+        ]
+    },
+    {
+        id: 187, level: 'B2', case: 'Nom', category: 'Possessivpronomen (Ersatz)',
+        text: "Ist das dein Buch? Nein, das ist ___.",
+        noun: "Buch (n)",
+        verbDesc: {
+            es: "Sein: Ser. Pronombre posesivo neutro sustituto.",
+            en: "Sein: To be. Neuter possessive pronoun replacement.",
+            tr: "Sein: Olmak. Nötr iyelik zamiri.",
+            de: "Possessivpronomen Neutrum."
+        },
+        explanation: {
+            es: "Sustituye a un neutro en Nominativo. Terminación fuerte '-es' (meines/meins).",
+            en: "Replaces a neuter in Nominative. Strong ending '-es' (meines/meins).",
+            tr: "Nominativ nötr bir ismin yerini alır. Güçlü ek '-es' alır.",
+            de: "Ersatz für Neutrum Nominativ -> 'meines' oder 'meins'."
+        },
+        slots: [ { type: 'art', answer: "meines", options: ["mein", "meine", "meiner", "meines"] } ]
+    },
+    {
+        id: 188, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Angesichts} ___ ___ Krise muss gespart werden.",
+        noun: "Krise (f)",
+        verbDesc: {
+            es: "Angesichts: En vista de / Ante. Rige Genitivo.",
+            en: "Angesichts: In light of. Takes Genitive.",
+            tr: "Angesichts: Karşısında / Bakıldığında. Genitiv alır.",
+            de: "Angesichts + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo femenino. Artículo 'der', adjetivo débil '-en'.",
+            en: "Feminine Genitive. Article 'der', weak adjective '-en'.",
+            tr: "Dişil Genitiv. Tanımlayıcı 'der', zayıf sıfat '-en'.",
+            de: "Feminin Genitiv. Artikel 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "wirtschaftlichen", options: ["wirtschaftliche", "wirtschaftlichen", "wirtschaftlicher", "wirtschaftliches"] }
+        ]
+    },
+    {
+        id: 189, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Bezüglich} ___ ___ Schreibens habe ich eine Frage.",
+        noun: "Schreiben (n)",
+        verbDesc: {
+            es: "Bezüglich: En relación con / Respecto a. Rige Genitivo.",
+            en: "Bezüglich: Regarding. Takes Genitive.",
+            tr: "Bezüglich: İlgili olarak. Genitiv alır.",
+            de: "Bezüglich + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo neutro. Posesivo 'Ihres', adjetivo débil '-en'.",
+            en: "Neuter Genitive. Possessive 'Ihres', weak adjective '-en'.",
+            tr: "Nötr Genitiv. İyelik 'Ihres', zayıf sıfat '-en'.",
+            de: "Neutrum Genitiv. Possessiv 'Ihres', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "Ihres", options: ["Ihr", "Ihren", "Ihrem", "Ihres"] },
+            { type: 'adj', answer: "letzten", options: ["letzte", "letzten", "letzter", "letztes"] }
+        ]
+    },
+    {
+        id: 190, level: 'B2', case: 'Dat', category: 'Verbo con Dativo',
+        text: "Ich {gratuliere} ___ ___ Bruder.",
+        noun: "Bruder (m)",
+        verbDesc: {
+            es: "Gratulieren: Felicitar. Rige Dativo.",
+            en: "Gratulieren: To congratulate. Takes Dative.",
+            tr: "Gratulieren: Tebrik etmek. Dativ alır.",
+            de: "Gratulieren + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Posesivo 'deinem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Possessive 'deinem', weak adjective '-en'.",
+            tr: "Eril Dativ. İyelik 'deinem', zayıf sıfat '-en'.",
+            de: "Maskulin Dativ. Possessiv 'deinem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "deinem", options: ["dein", "deinen", "deinem", "deines"] },
+            { type: 'adj', answer: "jüngeren", options: ["jüngere", "jüngeren", "jüngerem", "jüngeres"] }
+        ]
+    },
+    {
+        id: 191, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Längs} ___ ___ Flusses führt ein Radweg.",
+        noun: "Fluss (m)",
+        verbDesc: {
+            es: "Längs: A lo largo de. Rige Genitivo.",
+            en: "Längs: Along. Takes Genitive.",
+            tr: "Längs: Boyunca. Genitiv alır.",
+            de: "Längs + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Artículo 'des', adjetivo débil '-en'.",
+            en: "Masculine Genitive. Article 'des', weak adjective '-en'.",
+            tr: "Eril Genitiv. Tanımlayıcı 'des', zayıf sıfat '-en'.",
+            de: "Maskulin Genitiv. Artikel 'des', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "breiten", options: ["breite", "breiten", "breiter", "breites"] }
+        ]
+    },
+    {
+        id: 192, level: 'B2', case: 'Akk', category: 'Preposición Akkusativ',
+        text: "Er arbeitet {ohne} ___ ___ Unterstützung.",
+        noun: "Unterstützung (f)",
+        verbDesc: {
+            es: "Ohne: Sin. Rige Akkusativ.",
+            en: "Ohne: Without. Takes Accusative.",
+            tr: "Ohne: -sız / -siz. Akkusativ alır.",
+            de: "Ohne + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ femenino. Posesivo 'unsere', adjetivo débil '-e'.",
+            en: "Feminine Accusative. Possessive 'unsere', weak adjective '-e'.",
+            tr: "Dişil Akkusativ. İyelik 'unsere', zayıf sıfat '-e'.",
+            de: "Feminin Akkusativ. Possessiv 'unsere', Adjektiv '-e'."
+        },
+        slots: [
+            { type: 'art', answer: "unsere", options: ["unser", "unsere", "unserem", "unseres"] },
+            { type: 'adj', answer: "finanzielle", options: ["finanzielle", "finanziellen", "finanzieller", "finanzielles"] }
+        ]
+    },
+    {
+        id: 193, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Jenseits} ___ ___ Berge ist das Klima anders.",
+        noun: "Berge (pl)",
+        verbDesc: {
+            es: "Jenseits: Al otro lado de / Más allá de. Rige Genitivo.",
+            en: "Jenseits: Beyond. Takes Genitive.",
+            tr: "Jenseits: Ötesinde. Genitiv alır.",
+            de: "Jenseits + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo plural. Artículo 'der', adjetivo débil '-en'.",
+            en: "Plural Genitive. Article 'der', weak adjective '-en'.",
+            tr: "Çoğul Genitiv. Tanımlayıcı 'der', zayıf sıfat '-en'.",
+            de: "Plural Genitiv. Artikel 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "hohen", options: ["hohe", "hohen", "hoher", "hohes"] }
+        ]
+    },
+    {
+        id: 194, level: 'B2', case: 'Dat', category: 'Preposición Dativa',
+        text: "Ich bin {mit} ___ ___ Ergebnis zufrieden.",
+        noun: "Ergebnis (n)",
+        verbDesc: {
+            es: "Mit: Con. Rige Dativo.",
+            en: "Mit: With. Takes Dative.",
+            tr: "Mit: İle. Dativ alır.",
+            de: "Mit + Dativ."
+        },
+        explanation: {
+            es: "Dativo neutro. Posesivo 'deinem', adjetivo débil '-en'.",
+            en: "Neuter Dative. Possessive 'deinem', weak adjective '-en'.",
+            tr: "Nötr Dativ. İyelik 'deinem', zayıf sıfat '-en'.",
+            de: "Neutrum Dativ. Possessiv 'deinem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "deinem", options: ["dein", "deinen", "deinem", "deines"] },
+            { type: 'adj', answer: "letzten", options: ["letzte", "letzten", "letzter", "letztes"] }
+        ]
+    },
+    {
+        id: 195, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Zwecks} ___ ___ Identifikation benötigen wir Ihren Ausweis.",
+        noun: "Identifikation (f)",
+        verbDesc: {
+            es: "Zwecks: A efectos de / Con el fin de. Rige Genitivo.",
+            en: "Zwecks: For the purpose of. Takes Genitive.",
+            tr: "Zwecks: Amacıyla. Genitiv alır.",
+            de: "Zwecks + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo femenino sin artículo. Declinación fuerte del adjetivo '-er'.",
+            en: "Feminine Genitive without article. Strong adjective ending '-er'.",
+            tr: "Tanımlayıcısız dişil Genitiv. Güçlü sıfat tamlaması '-er'.",
+            de: "Feminin Genitiv ohne Artikel. Starke Adjektivendung '-er'."
+        },
+        slots: [ { type: 'adj', answer: "eindeutiger", options: ["eindeutige", "eindeutigen", "eindeutiger", "eindeutiges"] } ]
+    },
+    {
+        id: 196, level: 'B2', case: 'Akk', category: 'Verbo con Akkusativ',
+        text: "Ich {besuche} ___ ___ Onkel.",
+        noun: "Onkel (m)",
+        verbDesc: {
+            es: "Besuchen: Visitar. Rige Akkusativ.",
+            en: "Besuchen: To visit. Takes Accusative.",
+            tr: "Besuchen: Ziyaret etmek. Akkusativ alır.",
+            de: "Besuchen + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ masculino. Posesivo 'meinen', adjetivo débil '-en'.",
+            en: "Masculine Accusative. Possessive 'meinen', weak adjective '-en'.",
+            tr: "Eril Akkusativ. İyelik 'meinen', zayıf sıfat '-en'.",
+            de: "Maskulin Akkusativ. Possessiv 'meinen', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinen", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "kranken", options: ["kranke", "kranken", "kranker", "krankes"] }
+        ]
+    },
+    {
+        id: 197, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Inmitten} ___ ___ Tumults bewahrte sie die Ruhe.",
+        noun: "Tumult (m)",
+        verbDesc: {
+            es: "Inmitten: En medio de. Rige Genitivo.",
+            en: "Inmitten: In the midst of. Takes Genitive.",
+            tr: "Inmitten: Ortasında. Genitiv alır.",
+            de: "Inmitten + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Artículo 'des', adjetivo débil '-en'.",
+            en: "Masculine Genitive. Article 'des', weak adjective '-en'.",
+            tr: "Eril Genitiv. Tanımlayıcı 'des', zayıf sıfat '-en'.",
+            de: "Maskulin Genitiv. Artikel 'des', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 198, level: 'B2', case: 'Dat', category: 'Verbo con Dativo',
+        text: "Ich {antworte} ___ ___ Chef.",
+        noun: "Chef (m)",
+        verbDesc: {
+            es: "Antworten: Responder. Rige Dativo.",
+            en: "Antworten: To answer. Takes Dative.",
+            tr: "Antworten: Cevap vermek. Dativ alır.",
+            de: "Antworten + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Posesivo 'meinem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Possessive 'meinem', weak adjective '-en'.",
+            tr: "Eril Dativ. İyelik 'meinem', zayıf sıfat '-en'.",
+            de: "Maskulin Dativ. Possessiv 'meinem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinem", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neues"] }
+        ]
+    },
+    {
+        id: 199, level: 'C1', case: 'Gen', category: 'Preposición Genitiva Culta',
+        text: "{Ungeachtet} ___ ___ Verluste kämpften sie weiter.",
+        noun: "Verluste (pl)",
+        verbDesc: {
+            es: "Ungeachtet: Pese a / Independientemente de. Rige Genitivo.",
+            en: "Ungeachtet: Regardless of. Takes Genitive.",
+            tr: "Ungeachtet: Rağmen. Genitiv alır.",
+            de: "Ungeachtet + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo plural. Artículo 'der', adjetivo débil '-en'.",
+            en: "Plural Genitive. Article 'der', weak adjective '-en'.",
+            tr: "Çoğul Genitiv. Tanımlayıcı 'der', zayıf sıfat '-en'.",
+            de: "Plural Genitiv. Artikel 'der', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "schweren", options: ["schwere", "schweren", "schwerer", "schweres"] }
+        ]
+    },
+    {
+        id: 200, level: 'C1', case: 'Dat', category: 'Preposición Dativa (Cierre)',
+        text: "Wir haben uns {von} ___ ___ Kollegen verabschiedet.",
+        noun: "Kollege (m)",
+        verbDesc: {
+            es: "Sich verabschieden von: Despedirse de. Rige Dativo.",
+            en: "Sich verabschieden von: To say goodbye to. Takes Dative.",
+            tr: "Sich verabschieden von: -e veda etmek. Dativ alır.",
+            de: "Sich verabschieden von + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Kollege es N-Deklination. Posesivo 'unserem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Kollege is N-declension. Possessive 'unserem', weak adjective '-en'.",
+            tr: "Eril Dativ. Kollege N-çekimidir. İyelik 'unserem', zayıf sıfat '-en'.",
+            de: "Maskulin Dativ. Kollege ist N-Deklination. Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "unserem", options: ["unser", "unseren", "unserem", "unseres"] },
+            { type: 'adj', answer: "geschätzten", options: ["geschätzte", "geschätzten", "geschätzter", "geschätztes"] }
+        ]
+    },
+
+            {
+        id: 201, level: 'B2', case: 'Akk', category: 'La "A" Personal',
+        text: "Ich {besuche} ___ (m) alt___ Lehrer.",
+        noun: "Lehrer (m)",
+        verbDesc: {
+            es: "Besuchen: Visitar a alguien. (Lo visito -> Akkusativ).",
+            en: "Besuchen: To visit someone. (Accusative).",
+            de: "Besuchen + Akkusativ."
+        },
+        explanation: {
+            es: "En español decimos 'a mi profesor', pero es Akkusativ. Masculino 'meinen', adjetivo '-en'.",
+            en: "In Spanish we use 'a', but it's Accusative. Masculine 'meinen', adjective '-en'.",
+            de: "Direktes Objekt (Akk). Maskulin 'meinen', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinen", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
+        ]
+    },
+    {
+        id: 202, level: 'B2', case: 'Dat', category: 'La "A" Personal',
+        text: "Ich {helfe} ___ (m) alt___ Lehrer.",
+        noun: "Lehrer (m)",
+        verbDesc: {
+            es: "Helfen: Ayudar a alguien. (Le ayudo -> Dativo).",
+            en: "Helfen: To help someone. (Dative).",
+            de: "Helfen + Dativ."
+        },
+        explanation: {
+            es: "Helfen es dativo puro. Masculino 'dem', adjetivo '-en'.",
+            en: "Helfen is pure Dative. Masculine 'dem', adjective '-en'.",
+            de: "Dativ-Verb. Maskulin 'dem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "das"] },
+            { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
+        ]
+    },
+    {
+        id: 203, level: 'C1', case: 'Akk', category: 'N-Deklination',
+        text: "Kennst du ___ (m) neu___ {Präsidenten}?",
+        noun: "Präsident (m)",
+        verbDesc: {
+            es: "Kennen: Conocer a alguien. Rige Akkusativ.",
+            en: "Kennen: To know someone. Takes Accusative.",
+            de: "Kennen + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ masculino. Präsident es N-Deklination (lleva -en). Adjetivo débil '-en'.",
+            en: "Masculine Accusative. Präsident is N-declension. Weak adjective '-en'.",
+            de: "Maskulin Akkusativ. N-Deklination + schwache Adjektivendung."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neuer"] }
+        ]
+    },
+    {
+        id: 204, level: 'B2', case: 'Akk', category: 'El "Das" Problem',
+        text: "Ich brauche ___ (n) neu___ Messer.",
+        noun: "Messer (n)",
+        verbDesc: {
+            es: "Brauchen: Necesitar. Rige Akkusativ.",
+            en: "Brauchen: To need. Accusative.",
+            de: "Brauchen + Akkusativ."
+        },
+        explanation: {
+            es: "Cuchillo en alemán es neutro. Akkusativ neutro 'ein', adjetivo mixto '-es'.",
+            en: "Knife is neuter in German. Neuter Accusative 'ein', mixed adjective '-es'.",
+            de: "Neutrum Akkusativ. Artikel 'ein', gemischte Endung '-es'."
+        },
+        slots: [
+            { type: 'art', answer: "ein", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "neues", options: ["neue", "neuen", "neuem", "neues"] }
+        ]
+    },
+    {
+        id: 205, level: 'C1', case: 'Dat', category: 'N-Deklination',
+        text: "Ich habe {mit} ___ (m) jung___ {Kunden} gesprochen.",
+        noun: "Kunde (m)",
+        verbDesc: {
+            es: "Sprechen mit: Hablar con. Rige Dativo.",
+            en: "Sprechen mit: To speak with. Dative.",
+            de: "Mit + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Kunde es N-Deklination (añade -n). Posesivo 'einem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Kunde is N-declension. Article 'einem', weak adjective '-en'.",
+            de: "Maskulin Dativ. N-Deklination + schwache Endung."
+        },
+        slots: [
+            { type: 'art', answer: "einem", options: ["ein", "einen", "einem", "einer"] },
+            { type: 'adj', answer: "jungen", options: ["junge", "jungen", "junger", "junges"] }
+        ]
+    },
+    {
+        id: 206, level: 'B2', case: 'Akk', category: 'La "A" Personal',
+        text: "Er {fragt} ___ (m) nett___ Polizisten.",
+        noun: "Polizist (m)",
+        verbDesc: {
+            es: "Fragen: Preguntar a alguien. (Lo pregunta -> Akkusativ).",
+            en: "Fragen: To ask someone. (Accusative).",
+            de: "Fragen + Akkusativ."
+        },
+        explanation: {
+            es: "En español decimos 'le pregunta', pero en alemán es Akkusativ. Polizist es N-Deklination.",
+            en: "Accusative object. Polizist is N-declension.",
+            de: "Akkusativobjekt. Maskulin 'den', Polizist (N-Dekl)."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "netten", options: ["nette", "netten", "netter", "nettes"] }
+        ]
+    },
+    {
+        id: 207, level: 'C1', case: 'Dat', category: 'Verbos Dativo Puro',
+        text: "Das {schadet} ___ (m) gesund___ Körper.",
+        noun: "Körper (m)",
+        verbDesc: {
+            es: "Schaden: Dañar a algo/alguien. Rige Dativo.",
+            en: "Schaden: To harm. Takes Dative.",
+            de: "Schaden + Dativ."
+        },
+        explanation: {
+            es: "Dañar 'le' a algo. Dativo masculino 'dem', adjetivo débil '-en'.",
+            en: "Harmful to something (Dative). Masculine 'dem', weak adjective '-en'.",
+            de: "Dativ-Verb. Maskulin 'dem', Adjektiv '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "das"] },
+            { type: 'adj', answer: "gesunden", options: ["gesunde", "gesunden", "gesunder", "gesundes"] }
+        ]
+    },
+    {
+        id: 208, level: 'B2', case: 'Akk', category: 'El "Das" Problem',
+        text: "Ich {sehe} ___ (n) klein___ Kind.",
+        noun: "Kind (n)",
+        verbDesc: {
+            es: "Sehen: Ver. Akkusativ.",
+            en: "Sehen: To see. Accusative.",
+            de: "Sehen + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ neutro. Posesivo 'mein', adjetivo mixto '-es'.",
+            en: "Neuter Accusative. Possessive 'mein', mixed adjective '-es'.",
+            de: "Neutrum Akkusativ. 'mein' + Endung '-es'."
+        },
+        slots: [
+            { type: 'art', answer: "mein", options: ["mein", "meine", "meinen", "meinem"] },
+            { type: 'adj', answer: "kleine", options: ["kleine", "kleinen", "kleines", "kleiner"] }
+        ]
+    },
+    {
+        id: 209, level: 'C1', case: 'Gen', category: 'Preposiciones Genitivas',
+        text: "{Wegen} ___ (m) schlecht___ {Wissens} kam er nicht weiter.",
+        noun: "Wissen (n)",
+        verbDesc: {
+            es: "Wegen: Debido a. Rige Genitivo.",
+            en: "Wegen: Because of. Genitive.",
+            de: "Wegen + Genitiv."
+        },
+        explanation: {
+            es: "Wissen es neutro. Genitivo 'seines', adjetivo mixto '-en'.",
+            en: "Knowledge (Wissen) is neuter. Genitive 'seines', adjective '-en'.",
+            de: "Neutrum Genitiv. 'seines' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "seines", options: ["sein", "seinen", "seinem", "seines"] },
+            { type: 'adj', answer: "schlechten", options: ["schlechte", "schlechten", "schlechtes", "schlechter"] }
+        ]
+    },
+    {
+        id: 210, level: 'B2', case: 'Dat', category: 'La "A" Personal',
+        text: "Ich {vertraue} ___ (m) gut___ Freund.",
+        noun: "Freund (m)",
+        verbDesc: {
+            es: "Vertrauen: Confiar en alguien. (Le confío -> Dativo).",
+            en: "Vertrauen: To trust. Dative.",
+            de: "Vertrauen + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Posesivo 'meinem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Possessive 'meinem', weak adjective '-en'.",
+            de: "Maskulin Dativ. 'meinem' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinem", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "guten", options: ["gute", "guten", "gutem", "gutes"] }
+        ]
+    },
+    {
+        id: 211, level: 'C1', case: 'Akk', category: 'N-Deklination',
+        text: "Ich habe ___ (m) groß___ {Diamanten} verloren.",
+        noun: "Diamant (m)",
+        verbDesc: {
+            es: "Verlieren: Perder algo. Akkusativ.",
+            en: "Verlieren: To lose. Accusative.",
+            de: "Verlieren + Akkusativ."
+        },
+        explanation: {
+            es: "Diamant es N-Deklination. Akkusativ masculino 'einen', adjetivo mixto '-en'.",
+            en: "Diamant is N-declension. Masculine 'einen', adjective '-en'.",
+            de: "Maskulin Akkusativ. N-Deklination."
+        },
+        slots: [
+            { type: 'art', answer: "einen", options: ["ein", "einer", "einem", "einen"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] }
+        ]
+    },
+    {
+        id: 212, level: 'B2', case: 'Dat', category: 'Doble Objeto',
+        text: "Ich {empfehle} ___ (f) Freundin ___ (n) gut___ Restaurant.",
+        noun: "Freundin (f), Restaurant (n)",
+        verbDesc: {
+            es: "Empfehlen: Recomendar. (Nom empfiehlt Dat Akk).",
+            en: "Empfehlen: To recommend.",
+            de: "Empfehlen: Dat + Akk."
+        },
+        explanation: {
+            es: "¿A quién? (Dativo femenino -> meiner). ¿Qué? (Akkusativ neutro -> ein ... -es).",
+            en: "Who? (Dative). What? (Accusative).",
+            de: "Wem? (Dat). Was? (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "meiner", options: ["meine", "meiner", "meinen", "meinem"] },
+            { type: 'art', answer: "ein", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "gutes", options: ["gute", "guten", "gutes", "guter"] }
+        ]
+    },
+    {
+        id: 213, level: 'C1', case: 'Gen', category: 'Genitivo Posesivo',
+        text: "Das ist die Tasche ___ (f) neu___ Kollegin.",
+        noun: "Kollegin (f)",
+        verbDesc: {
+            es: "Sein: Ser. Indica posesión (de la...).",
+            en: "Sein: To be. Shows possession.",
+            de: "Genitivattribut."
+        },
+        explanation: {
+            es: "Genitivo femenino. Artículo 'der', adjetivo débil '-en'.",
+            en: "Feminine Genitive. Article 'der', weak adjective '-en'.",
+            de: "Feminin Genitiv. 'der' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuer", "neues"] }
+        ]
+    },
+    {
+        id: 214, level: 'B2', case: 'Dat', category: 'Preposiciones Fijas',
+        text: "Ich bin {mit} ___ (m) alt___ Wagen zufrieden.",
+        noun: "Wagen (m)",
+        verbDesc: {
+            es: "Zufrieden sein mit: Estar satisfecho con. Rige Dativo.",
+            en: "Zufrieden sein mit: To be satisfied with. Dative.",
+            de: "Zufrieden mit + Dativ."
+        },
+        explanation: {
+            es: "Dativo masculino. Artículo 'dem', adjetivo débil '-en'.",
+            en: "Masculine Dative. Article 'dem', weak adjective '-en'.",
+            de: "Maskulin Dativ. 'dem' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
+        ]
+    },
+    {
+        id: 215, level: 'C1', case: 'Akk', category: 'Reflexivos',
+        text: "Ich {gewöhne} mich an ___ (n) kalt___ Wetter.",
+        noun: "Wetter (n)",
+        verbDesc: {
+            es: "Sich gewöhnen an: Acostumbrarse a. Rige Akkusativ.",
+            en: "Sich gewöhnen an: To get used to. Accusative.",
+            de: "Gewöhnen an + Akkusativ."
+        },
+        explanation: {
+            es: "Akkusativ neutro. Artículo 'das', adjetivo débil '-en'.",
+            en: "Neuter Accusative. Article 'das', weak adjective '-en'.",
+            de: "Neutrum Akkusativ. 'das' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "kalte", options: ["kalte", "kalten", "kaltem", "kaltes"] }
+        ]
+    },
+    {
+        id: 216, level: 'B2', case: 'Akk', category: 'La "A" Personal',
+        text: "Ich {suche} ___ (m) nett___ {Nachbarn}.",
+        noun: "Nachbar (m)",
+        verbDesc: {
+            es: "Suchen: Buscar. Rige Akkusativ.",
+            en: "Suchen: To search. Accusative.",
+            de: "Suchen + Akkusativ."
+        },
+        explanation: {
+            es: "Nachbar es N-Deklination. Akkusativ masculino 'meinen', adjetivo débil '-en'.",
+            en: "Nachbar is N-declension. Masculine 'meinen', weak adjective '-en'.",
+            de: "Maskulin Akkusativ. 'meinen' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meinen", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "netten", options: ["nette", "netten", "netter", "nettes"] }
+        ]
+    },
+    {
+        id: 217, level: 'C1', case: 'Gen', category: 'Preposiciones Genitivas',
+        text: "{Infolge} ___ ___ Unfalls war die Straße gesperrt.",
+        noun: "Unfall (m)",
+        verbDesc: {
+            es: "Infolge: Como consecuencia de. Genitivo.",
+            en: "Infolge: As a result of. Genitive.",
+            de: "Infolge + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo masculino. Artículo 'eines', adjetivo mixto '-en'.",
+            en: "Masculine Genitive. Article 'eines', mixed adjective '-en'.",
+            de: "Maskulin Genitiv. 'eines' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "eines", options: ["ein", "einer", "einem", "eines"] },
+            { type: 'adj', answer: "schweren", options: ["schwere", "schweren", "schwerer", "schweres"] }
+        ]
+    },
+    {
+        id: 218, level: 'B2', case: 'Dat', category: 'Preposiciones Fijas',
+        text: "Ich {träume} von ___ ___ Haus am Meer.",
+        noun: "Haus (n)",
+        verbDesc: {
+            es: "Träumen von: Soñar con. Rige Dativo.",
+            en: "Träumen von: To dream of. Dative.",
+            de: "Träumen von + Dativ."
+        },
+        explanation: {
+            es: "Dativo neutro. Artículo 'einem', adjetivo mixto '-en'.",
+            en: "Neuter Dative. Article 'einem', mixed adjective '-en'.",
+            de: "Neutrum Dativ. 'einem' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "einem", options: ["ein", "einen", "einem", "einer"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großes", "großem"] }
+        ]
+    },
+    {
+        id: 219, level: 'C1', case: 'Akk', category: 'N-Deklination',
+        text: "Haben Sie ___ (m) {Patienten} schon gesehen?",
+        noun: "Patient (m)",
+        verbDesc: {
+            es: "Sehen: Ver. Rige Akkusativ.",
+            en: "Sehen: To see. Accusative.",
+            de: "Sehen + Akkusativ."
+        },
+        explanation: {
+            es: "Patient es N-Deklination. Akkusativ masculino 'den'.",
+            en: "Patient is N-declension. Masculine 'den'.",
+            de: "Maskulin Akkusativ. 'den' + Patient-en."
+        },
+        slots: [ { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] } ]
+    },
+    {
+        id: 220, level: 'B2', case: 'Akk', category: 'El "Das" Problem',
+        text: "Ich kaufe ___ ___ Kleid.",
+        noun: "Kleid (n)",
+        verbDesc: {
+            es: "Kaufen: Comprar. Akkusativ.",
+            en: "Kaufen: To buy. Accusative.",
+            de: "Kaufen + Akkusativ."
+        },
+        explanation: {
+            es: "Vestido es neutro. Akkusativ neutro 'ein', adjetivo mixto '-es'.",
+            en: "Dress is neuter. Neuter Accusative 'ein', adjective '-es'.",
+            de: "Neutrum Akkusativ. 'ein' + '-es'."
+        },
+        slots: [
+            { type: 'art', answer: "ein", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "schönes", options: ["schöne", "schönen", "schönes", "schöner"] }
+        ]
+    },
+    {
+        id: 221, level: 'C1', case: 'Gen', category: 'Genitivo',
+        text: "Die Hilfe ___ ___ Menschen ist bewundernswert.",
+        noun: "Menschen (pl)",
+        verbDesc: {
+            es: "Sein: Ser.",
+            en: "Sein: To be.",
+            de: "Sein."
+        },
+        explanation: {
+            es: "Genitivo plural. Artículo 'der', adjetivo débil '-en'.",
+            en: "Plural Genitive. Article 'der', weak adjective '-en'.",
+            de: "Plural Genitiv. 'der' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "vielen", options: ["viele", "vielen", "vieler", "vieles"] }
+        ]
+    },
+    {
+        id: 222, level: 'B2', case: 'Dat', category: 'La "A" Personal',
+        text: "Das {gehört} ___ (m) klein___ Kind.",
+        noun: "Kind (n)",
+        verbDesc: {
+            es: "Gehören: Pertenecer a alguien. Dativo.",
+            en: "Gehören: To belong. Dative.",
+            de: "Gehören + Dativ."
+        },
+        explanation: {
+            es: "Dativo neutro. Artículo 'dem', adjetivo débil '-en'.",
+            en: "Neuter Dative. Article 'dem', weak adjective '-en'.",
+            de: "Neutrum Dativ. 'dem' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "kleinen", options: ["kleine", "kleinen", "kleiner", "kleines"] }
+        ]
+    },
+    {
+        id: 223, level: 'C1', case: 'Akk', category: 'N-Deklination',
+        text: "Ich {rufe} ___ (m) {Experten} an.",
+        noun: "Experte (m)",
+        verbDesc: {
+            es: "Anrufen: Llamar por teléfono. Rige Akkusativ.",
+            en: "Anrufen: To call. Accusative.",
+            de: "Anrufen + Akkusativ."
+        },
+        explanation: {
+            es: "Experte es N-Deklination. Akkusativ masculino 'den'.",
+            en: "Experte is N-declension. Masculine 'den'.",
+            de: "Maskulin Akkusativ. 'den' + Experte-n."
+        },
+        slots: [ { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] } ]
+    },
+    {
+        id: 224, level: 'B2', case: 'Dat', category: 'Preposiciones Fijas',
+        text: "Ich {telefone mit} ___ ___ Freundin.",
+        noun: "Freundin (f)",
+        verbDesc: {
+            es: "Telefonieren mit: Hablar por teléfono con. Dativo.",
+            en: "Telefonieren mit: To phone someone. Dative.",
+            de: "Telefonieren mit + Dativ."
+        },
+        explanation: {
+            es: "Dativo femenino. Posesivo 'meiner', adjetivo débil '-en'.",
+            en: "Feminine Dative. Possessive 'meiner', weak adjective '-en'.",
+            de: "Feminin Dativ. 'meiner' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "meiner", options: ["meine", "meiner", "meinen", "meinem"] },
+            { type: 'adj', answer: "besten", options: ["beste", "besten", "bester", "bestes"] }
+        ]
+    },
+    {
+        id: 225, level: 'C1', case: 'Gen', category: 'Preposiciones Genitivas',
+        text: "{Anstatt} ___ ___ Autos nehme ich das Fahrrad.",
+        noun: "Auto (n)",
+        verbDesc: {
+            es: "Anstatt: En lugar de. Rige Genitivo.",
+            en: "Anstatt: Instead of. Genitive.",
+            de: "Anstatt + Genitiv."
+        },
+        explanation: {
+            es: "Genitivo neutro. Artículo 'des', adjetivo débil '-en'.",
+            en: "Neuter Genitive. Article 'des', weak adjective '-en'.",
+            de: "Neutrum Genitiv. 'des' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "teuren", options: ["teure", "teuren", "teurer", "teures"] }
+        ]
+    },
+{
+        id: 226, level: 'C1', case: 'Dat/Akk/Gen', category: 'Triple Declinación',
+        text: "Ich {gebe} ___ ___ neu___ Nachbarn ___ Brief ___ ___ Vaters.",
+        noun: "Nachbar (m), Brief (m), Vater (m)",
+        verbDesc: {
+            es: "Geben: Dar. (Nom gibt Dat Akk). Además incluye un Genitivo.",
+            en: "Geben: To give. (Nom gives Dat Acc). Plus a Genitive.",
+            tr: "Geben: Vermek. (Nom Dat'a Akk verir). Ayrıca bir Genitiv içerir.",
+            de: "Geben: (Nom gibt Dat Akk) + Genitivattribut."
+        },
+        explanation: {
+            es: "1. ¿A quién? (Dativo Nachbar + N-Dekl). 2. ¿Qué? (Akkusativ Brief). 3. ¿De quién? (Genitivo Vaters).",
+            en: "1. To whom? (Dative + N-decl). 2. What? (Accusative). 3. Whose? (Genitive).",
+            tr: "1. Kime? (Dativ + N-çekimi). 2. Neyi? (Akkusativ). 3. Kimin? (Genitiv).",
+            de: "1. Wem? (Dat). 2. Was? (Akk). 3. Wessen? (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neuer"] },
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "das"] },
+            { type: 'art', answer: "meines", options: ["mein", "meinem", "meines", "meinen"] }
+        ]
+    },
+    {
+        id: 227, level: 'C1', case: 'Gen/Nom/Akk', category: 'Preposición Genitiva inicial',
+        text: "{Trotz} ___ ___ Regens kauft ___ ___ Student ___ ___ Buch.",
+        noun: "Regen (m), Student (m), Buch (n)",
+        verbDesc: {
+            es: "Kaufen: Comprar. El sujeto es Nominativo, el objeto Akkusativ.",
+            en: "Kaufen: To buy. Subject is Nominative, object is Accusative.",
+            tr: "Kaufen: Satın almak. Özne Nominativ, nesne Akkusativ.",
+            de: "Kaufen: Nom kauft Akk."
+        },
+        explanation: {
+            es: "1. Trotz (Genitivo). 2. Sujeto (Nominativo Student + N-Dekl). 3. Objeto (Akkusativ neutro).",
+            en: "1. Trotz (Genitive). 2. Subject (Nominative). 3. Object (Neuter Accusative).",
+            tr: "1. Trotz (Genitiv). 2. Özne (Nominativ). 3. Nesne (Nötr Akkusativ).",
+            de: "1. Genitiv (Trotz). 2. Nominativ (Subjekt). 3. Akkusativ (Objekt)."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["dem", "des", "den", "das"] },
+            { type: 'adj', answer: "starken", options: ["starker", "starken", "starkem", "starkes"] },
+            { type: 'art', answer: "der", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "junge", options: ["junge", "jungen", "junger", "junges"] },
+            { type: 'art', answer: "ein", options: ["ein", "einen", "einem", "eines"] },
+            { type: 'adj', answer: "teures", options: ["teure", "teuren", "teures", "teurer"] }
+        ]
+    },
+    {
+        id: 228, level: 'C1', case: 'Dat/Akk', category: 'Reflexivo Dativ + Adjetivos',
+        text: "Ich {wasche} ___ ___ schmutzig___ Hände mit ___ ___ Seife.",
+        noun: "Hände (pl), Seife (f)",
+        verbDesc: {
+            es: "Sich (Dat) die Hände waschen: Lavarse las manos. 'Mit' rige Dativo.",
+            en: "Sich (Dat) die Hände waschen: To wash one's hands. 'Mit' takes Dative.",
+            tr: "Ellerini yıkamak. 'Mit' Dativ alır.",
+            de: "Sich (Dat) die Hände (Akk) waschen + mit (Dat)."
+        },
+        explanation: {
+            es: "1. Pronombre (mir). 2. Objeto (Akkusativ plural). 3. Preposición 'mit' (Dativo femenino).",
+            en: "1. Pronoun (mir). 2. Object (Plural Accusative). 3. Prep 'mit' (Feminine Dative).",
+            tr: "1. Zamir (mir). 2. Nesne (Çoğul Akkusativ). 3. Edat 'mit' (Dişil Dativ).",
+            de: "1. mir (Refl). 2. die schmutzigen (Akk). 3. einer besonderen (Dat)."
+        },
+        slots: [
+            { type: 'art', answer: "mir", options: ["mich", "mir", "sich", "uns"] },
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "schmutzigen", options: ["schmutzige", "schmutzigen", "schmutziger", "schmutziges"] },
+            { type: 'art', answer: "einer", options: ["eine", "einer", "einem", "einen"] },
+            { type: 'adj', answer: "besonderen", options: ["besondere", "besonderen", "besonderer", "besonderes"] }
+        ]
+    },
+    {
+        id: 229, level: 'C1', case: 'Dat/Gen', category: 'Preposición + Posesión Genitiva',
+        text: "Ich {sitze} in ___ ___ Zimmer ___ ___ Freundes.",
+        noun: "Zimmer (n), Freund (m)",
+        verbDesc: {
+            es: "Sitzen in: Estar sentado en. (Wo? -> Dativo).",
+            en: "Sitzen in: To be sitting in. (Where? -> Dative).",
+            tr: "Sitzen in: -de oturmak. (Nerede? -> Dativ).",
+            de: "Sitzen in + Dativ."
+        },
+        explanation: {
+            es: "1. Ubicación (Dativo neutro). 2. Posesión (Genitivo masculino).",
+            en: "1. Location (Neuter Dative). 2. Possession (Masculine Genitive).",
+            tr: "1. Konum (Nötr Dativ). 2. İyelik (Eril Genitiv).",
+            de: "1. Dativ (Ort). 2. Genitiv (Besitz)."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "kleinen", options: ["kleine", "kleinen", "kleiner", "kleines"] },
+            { type: 'art', answer: "meines", options: ["mein", "meinem", "meines", "meinen"] },
+            { type: 'adj', answer: "besten", options: ["beste", "besten", "bester", "bestes"] }
+        ]
+    },
+    {
+        id: 230, level: 'C1', case: 'Akk/Dat', category: 'Verbo con Doble Objeto + N-Dekl',
+        text: "Ich {erkläre} ___ ___ {Experten} ___ ___ Problem.",
+        noun: "Experte (m), Problem (n)",
+        verbDesc: {
+            es: "Erklären: Explicar. (Nom erklärt Dat Akk).",
+            en: "Erklären: To explain.",
+            tr: "Erklären: Açıklamak.",
+            de: "Erklären: Dat + Akk."
+        },
+        explanation: {
+            es: "1. ¿A quién? (Dativo masculino + N-Dekl). 2. ¿Qué? (Akkusativ neutro).",
+            en: "1. To whom? (Masculine Dative + N-decl). 2. What? (Neuter Accusative).",
+            tr: "1. Kime? (Eril Dativ + N-çekimi). 2. Neyi? (Nötr Akkusativ).",
+            de: "1. dem neuen Experten (Dat). 2. das schwierige Problem (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neuer"] },
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "schwierige", options: ["schwierige", "schwierigen", "schwieriger", "schwieriges"] }
+        ]
+    },
+    {
+        id: 231, level: 'C1', case: 'Gen/Akk', category: 'Preposición Genitiva + Objeto Akkusativ',
+        text: "{Wegen} ___ ___ {Fehlers} verlor er ___ ___ Job.",
+        noun: "Fehler (m), Job (m)",
+        verbDesc: {
+            es: "Verlieren: Perder. Rige Akkusativ.",
+            en: "Verlieren: To lose. Takes Accusative.",
+            tr: "Verlieren: Kaybetmek. Akkusativ alır.",
+            de: "Verlieren + Akkusativ."
+        },
+        explanation: {
+            es: "1. Wegen rige Genitivo. 2. Objeto directo masculino (Akkusativ).",
+            en: "1. Wegen requires Genitive. 2. Masculine direct object (Accusative).",
+            tr: "1. Wegen Genitiv ister. 2. Eril belirtili nesne (Akkusativ).",
+            de: "1. Genitiv (Wegen). 2. Akkusativ (Objekt)."
+        },
+        slots: [
+            { type: 'art', answer: "eines", options: ["ein", "einen", "einem", "eines"] },
+            { type: 'adj', answer: "kleinen", options: ["kleine", "kleinen", "kleiner", "kleines"] },
+            { type: 'art', answer: "seinen", options: ["sein", "seine", "seinem", "seinen"] },
+            { type: 'adj', answer: "gutem", options: ["gute", "guten", "gutem", "gutes"] }
+        ]
+    },
+    {
+        id: 232, level: 'C1', case: 'Dat/Gen', category: 'Preposición Dativa + Posesivo Genitivo',
+        text: "Ich {fahre} {mit} ___ ___ Auto ___ ___ Chefs.",
+        noun: "Auto (n), Chef (m)",
+        verbDesc: {
+            es: "Fahren mit: Ir con/en. Rige Dativo.",
+            en: "Fahren mit: To go with/by. Takes Dative.",
+            tr: "Fahren mit: -ile gitmek. Dativ alır.",
+            de: "Fahren mit + Dativ."
+        },
+        explanation: {
+            es: "1. Con el coche (Dativo neutro). 2. Del jefe (Genitivo masculino).",
+            en: "1. With the car (Neuter Dative). 2. Of the boss (Masculine Genitive).",
+            tr: "1. Araba ile (Nötr Dativ). 2. Patronun (Eril Genitiv).",
+            de: "1. dem neuen Auto (Dat). 2. meines Chefs (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "neuen", options: ["neue", "neuen", "neuem", "neuer"] },
+            { type: 'art', answer: "meines", options: ["mein", "meinem", "meines", "meinen"] }
+        ]
+    },
+    {
+        id: 233, level: 'C1', case: 'Nom/Dat/Akk', category: 'Sujeto + Receptor + Objeto',
+        text: "___ ___ {Kunde} {schenkt} ___ ___ Frau ___ ___ Uhr.",
+        noun: "Kunde (m), Frau (f), Uhr (f)",
+        verbDesc: {
+            es: "Schenken: Regalar. (Nom schenkt Dat Akk).",
+            en: "Schenken: To gift. (Nom gifts Dat Acc).",
+            tr: "Schenken: Hediye etmek. (Nom Dat'a Akk hediye eder).",
+            de: "Schenken: Nom + Dat + Akk."
+        },
+        explanation: {
+            es: "1. Sujeto (Nom + N-Dekl). 2. Receptora (Dativo femenino). 3. Regalo (Akkusativ femenino).",
+            en: "1. Subject (Nom + N-decl). 2. Recipient (Fem Dative). 3. Gift (Fem Accusative).",
+            tr: "1. Özne (Nom + N-çekimi). 2. Alıcı (Dişil Dativ). 3. Hediye (Dişil Akkusativ).",
+            de: "1. Der nette Kunde (Nom). 2. der jungen Frau (Dat). 3. eine teure Uhr (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "Der", options: ["Der", "Den", "Dem", "Des"] },
+            { type: 'adj', answer: "nette", options: ["nette", "netten", "netter", "nettes"] },
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "jungen", options: ["junge", "jungen", "junger", "junges"] },
+            { type: 'art', answer: "eine", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "teure", options: ["teure", "teuren", "teurer", "teures"] }
+        ]
+    },
+    {
+        id: 234, level: 'C1', case: 'Gen/Dat', category: 'Preposición Genitiva + Dativo Local',
+        text: "{Während} ___ ___ {Krieges} lebten sie in ___ ___ Keller.",
+        noun: "Krieg (m), Keller (m)",
+        verbDesc: {
+            es: "Leben in: Vivir en. (Wo? -> Dativo).",
+            en: "Leben in: To live in. (Dative).",
+            tr: "Leben in: -de yaşamak. (Dativ).",
+            de: "Leben in + Dativ."
+        },
+        explanation: {
+            es: "1. Während (Genitivo masculino). 2. Ubicación (Dativo masculino).",
+            en: "1. Während (Masculine Genitive). 2. Location (Masculine Dative).",
+            tr: "1. Während (Eril Genitiv). 2. Konum (Eril Dativ).",
+            de: "1. des schrecklichen Krieges (Gen). 2. einem dunklen Keller (Dat)."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "schrecklichen", options: ["schreckliche", "schrecklichen", "schrecklicher", "schreckliches"] },
+            { type: 'art', answer: "einem", options: ["ein", "einen", "einem", "einer"] },
+            { type: 'adj', answer: "dunklen", options: ["dunkle", "dunklen", "dunkler", "dunkles"] }
+        ]
+    },
+    {
+        id: 235, level: 'C1', case: 'Dat/Akk/Gen', category: 'Reflexivo Dativ + Triple',
+        text: "Ich {leihe} ___ ___ ___ (m) Freund ___ ___ Buch ___ ___ Schwester.",
+        noun: "Freund (m), Buch (n), Schwester (f)",
+        verbDesc: {
+            es: "Leihen: Prestar. (Nom leiht Dat Akk). Incluye Genitivo.",
+            en: "Leihen: To lend. (Nom lends Dat Acc). Includes Genitive.",
+            tr: "Leihen: Ödünç vermek. Genitiv içerir.",
+            de: "Leihen: Nom + Dat + Akk + Genitivattribut."
+        },
+        explanation: {
+            es: "1. Receptor (Dativo). 2. Objeto (Akkusativ). 3. Poseedor (Genitivo femenino).",
+            en: "1. Recipient (Dative). 2. Object (Accusative). 3. Possessor (Feminine Genitive).",
+            tr: "1. Alıcı (Dativ). 2. Nesne (Akkusativ). 3. İyelik (Dişil Genitiv).",
+            de: "1. meinem besten Freund (Dat). 2. ein altes Buch (Akk). 3. deiner Schwester (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "meinem", options: ["mein", "meinen", "meinem", "meines"] },
+            { type: 'adj', answer: "besten", options: ["beste", "besten", "bester", "bestes"] },
+            { type: 'art', answer: "ein", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "altes", options: ["alte", "alten", "altes", "alter"] },
+            { type: 'art', answer: "deiner", options: ["deine", "deiner", "deinen", "deines"] }
+        ]
+    },
+   {
+        id: 236, level: 'C1', case: 'Nom/Dat', category: 'Participio II + N-Deklination',
+        text: "___ ___ {gelöste} Aufgabe {gehört} ___ ___ {Studenten}.",
+        noun: "Aufgabe (f), Student (m)",
+        verbDesc: {
+            es: "Gehören: Pertenecer. Rige Dativo.",
+            en: "Gehören: To belong. Takes Dative.",
+            de: "Gehören + Dativ."
+        },
+        explanation: {
+            es: "1. Sujeto (Nominativo femenino). 2. Receptor (Dativo masculino + N-Deklination).",
+            en: "1. Subject (Fem Nominative). 2. Recipient (Masc Dative + N-decl).",
+            de: "1. Nom (Fem). 2. Dat (Mask + N-Dekl)."
+        },
+        slots: [
+            { type: 'art', answer: "Die", options: ["Die", "Der", "Das", "Den"] },
+            { type: 'adj', answer: "neu", options: ["neu", "neue", "neuen", "neuer"] },
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "fleißigen", options: ["fleißige", "fleißigen", "fleißiger", "fleißiges"] }
+        ]
+    },
+    {
+        id: 237, level: 'C1', case: 'Akk/Dat/Gen', category: 'Participio I + Anidada',
+        text: "Ich {sehe} ___ ___ {lachenden} Kinder in ___ ___ Park ___ ___ Stadt.",
+        noun: "Kinder (pl), Park (m), Stadt (f)",
+        verbDesc: {
+            es: "Sehen: Ver (Akk). In: Ubicación (Dat).",
+            en: "Sehen: To see (Acc). In: Location (Dat).",
+            de: "Sehen (Akk) + in (Dat) + Genitivattribut."
+        },
+        explanation: {
+            es: "1. Niños riendo (Akk Plural). 2. Ubicación (Dat Masculino). 3. Posesión (Gen Femenino).",
+            en: "1. Laughing children (Acc Pl). 2. Location (Dat Masc). 3. Possession (Gen Fem).",
+            de: "1. Akk Plural. 2. Dat Maskulin. 3. Gen Feminin."
+        },
+        slots: [
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "großen", options: ["große", "großen", "großer", "großes"] },
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] }
+        ]
+    },
+    {
+        id: 238, level: 'C1', case: 'Gen/Akk', category: 'Participio II + Genitivo',
+        text: "{Trotz} ___ ___ {verlorenen} Schlüssels {fand} er ___ ___ Lösung.",
+        noun: "Schlüssel (m), Lösung (f)",
+        verbDesc: {
+            es: "Finden: Encontrar (Akk). Trotz: A pesar de (Gen).",
+            en: "Finden: To find (Acc). Trotz: Despite (Gen).",
+            de: "Trotz (Gen) + finden (Akk)."
+        },
+        explanation: {
+            es: "1. Llave perdida (Gen Masculino). 2. Una solución (Akk Femenino).",
+            en: "1. Lost key (Gen Masc). 2. A solution (Acc Fem).",
+            de: "1. Gen Maskulin. 2. Akk Feminin."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "verlorenen", options: ["verlorene", "verlorenen", "verlorener", "verlorenes"] },
+            { type: 'art', answer: "eine", options: ["ein", "eine", "einer", "einen"] },
+            { type: 'adj', answer: "passende", options: ["passende", "passenden", "passender", "passendes"] }
+        ]
+    },
+    {
+        id: 239, level: 'C1', case: 'Dat/Akk/Gen', category: 'Reflexivo Dativ + Part. II',
+        text: "Ich {sehe} ___ ___ {empfohlene} Video ___ ___ Professors an.",
+        noun: "Video (n), Professor (m)",
+        verbDesc: {
+            es: "Sich (Dat) etwas (Akk) ansehen: Ver algo.",
+            en: "Sich (Dat) something (Acc) watch.",
+            de: "Sich (Dat) etwas (Akk) ansehen."
+        },
+        explanation: {
+            es: "1. Pronombre (mir). 2. Video recomendado (Akk Neutro). 3. Del profesor (Gen Masculino).",
+            en: "1. Pronoun (mir). 2. Recommended video (Acc Neut). 3. Of the professor (Gen Masc).",
+            de: "1. mir (Refl). 2. das empfohlene Video (Akk). 3. des Professors (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "mir", options: ["mich", "mir", "sich", "uns"] },
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "empfohlene", options: ["empfohlene", "empfohlenen", "empfohlener", "empfohlenes"] },
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] }
+        ]
+    },
+    {
+        id: 240, level: 'C1', case: 'Akk', category: 'N-Deklination + Participio II',
+        text: "Ich {befrage} ___ ___ {verhafteten} {Polizisten}.",
+        noun: "Polizist (m)",
+        verbDesc: {
+            es: "Befragen: Interrogar. Rige Akkusativ.",
+            en: "Befragen: To question. Takes Accusative.",
+            de: "Befragen + Akkusativ."
+        },
+        explanation: {
+            es: "Objeto directo masculino. Polizist (N-Dekl en Akk). Participio II como adjetivo.",
+            en: "Masc Acc object. Polizist (N-decl). Participle II as adjective.",
+            de: "Maskulin Akkusativ + N-Deklination."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "verhafteten", options: ["verhaftete", "verhafteten", "verhafteter", "verhaftetes"] }
+        ]
+    },
+    {
+        id: 241, level: 'C1', case: 'Dat', category: 'Preposición + Participio I',
+        text: "Ich {spreche} {mit} ___ ___ {weinenden} Frau.",
+        noun: "Frau (f)",
+        verbDesc: {
+            es: "Sprechen mit: Hablar con. Rige Dativo.",
+            en: "Sprechen mit: To speak with. Takes Dative.",
+            de: "Mit + Dativ."
+        },
+        explanation: {
+            es: "Con la mujer que está llorando ahora (Participio I). Dativo femenino.",
+            en: "With the woman crying now (Participle I). Fem Dative.",
+            de: "Feminin Dativ + Partizip I."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "weinenden", options: ["weinende", "weinenden", "weinender", "weinendes"] }
+        ]
+    },
+    {
+        id: 242, level: 'C1', case: 'Gen/Dat', category: 'Genitivo + N-Deklination',
+        text: "{Anlässlich} ___ ___ {Besuchs} ___ ___ {Präsidenten}...",
+        noun: "Besuch (m), Präsident (m)",
+        verbDesc: {
+            es: "Anlässlich: Con motivo de (Gen). Posesión (Gen).",
+            en: "Anlässlich: On occasion of (Gen). Possession (Gen).",
+            de: "Anlässlich (Gen) + Genitivattribut."
+        },
+        explanation: {
+            es: "1. Motivo (Gen Masculino). 2. Del presidente (Gen Masculino + N-Dekl).",
+            en: "1. Occasion (Gen Masc). 2. Of the president (Gen Masc + N-decl).",
+            de: "1. des Besuchs (Gen). 2. des Präsidenten (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "kurzen", options: ["kurze", "kurzen", "kurzer", "kurzes"] },
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] }
+        ]
+    },
+    {
+        id: 243, level: 'C1', case: 'Nom/Dat/Akk', category: 'Doble Objeto + Participio II',
+        text: "___ ___ Mann {schickt} ___ ___ Frau ___ ___ {geschriebenen} Brief.",
+        noun: "Mann (m), Frau (f), Brief (m)",
+        verbDesc: {
+            es: "Schicken: Enviar. (Nom schickt Dat Akk).",
+            en: "Schicken: To send.",
+            de: "Schicken: Nom + Dat + Akk."
+        },
+        explanation: {
+            es: "1. Sujeto. 2. Receptora (Dat). 3. Carta escrita (Akk).",
+            en: "1. Subject. 2. Recipient (Dat). 3. Written letter (Acc).",
+            de: "1. Der alte Mann (Nom). 2. der Frau (Dat). 3. den geschriebenen Brief (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "Der", options: ["Der", "Den", "Dem", "Des"] },
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "das"] },
+            { type: 'adj', answer: "geschriebenen", options: ["geschriebene", "geschriebenen", "geschriebener", "geschriebenes"] }
+        ]
+    },
+    {
+        id: 244, level: 'C1', case: 'Dat/Akk', category: 'Reflexivo Dativ + Participio II',
+        text: "Ich {habe} ___ ___ ___ {gekochte} Essen {bestellt}.",
+        noun: "Essen (n)",
+        verbDesc: {
+            es: "Sich (Dat) etwas (Akk) bestellen: Pedirse algo.",
+            en: "Sich (Dat) something (Acc) order.",
+            de: "Sich (Dat) etwas (Akk) bestellen."
+        },
+        explanation: {
+            es: "Pronombre (mir). Comida cocinada (Akk Neutro).",
+            en: "Pronoun (mir). Cooked food (Acc Neut).",
+            de: "Mir (Dat). Das gekochte Essen (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "mir", options: ["mich", "mir", "sich", "euch"] },
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "gekochte", options: ["gekochte", "gekochten", "gekochter", "gekochtes"] }
+        ]
+    },
+    {
+        id: 245, level: 'C1', case: 'Gen', category: 'Preposición Genitiva + Participio II',
+        text: "{Ungeachtet} ___ ___ {getroffenen} Entscheidung...",
+        noun: "Entscheidung (f)",
+        verbDesc: {
+            es: "Ungeachtet: Pese a. Rige Genitivo.",
+            en: "Ungeachtet: Regardless of. Takes Genitive.",
+            de: "Ungeachtet + Genitiv."
+        },
+        explanation: {
+            es: "Pese a la decisión tomada (Participio II). Genitivo femenino.",
+            en: "Regardless of the decision made. Fem Genitive.",
+            de: "Feminin Genitiv + Partizip II."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "getroffenen", options: ["getroffene", "getroffenen", "getroffener", "getroffenes"] }
+        ]
+    },
+    {
+        id: 246, level: 'C1', case: 'Akk/Gen', category: 'Objeto + Posesión',
+        text: "Ich {verstehe} ___ ___ {Sinn} ___ ___ {gesagten} Worte.",
+        noun: "Sinn (m), Worte (pl)",
+        verbDesc: {
+            es: "Verstehen: Entender (Akk). Genitivo posesivo.",
+            en: "Verstehen: To understand.",
+            de: "Verstehen (Akk) + Genitiv."
+        },
+        explanation: {
+            es: "1. El sentido (Akk Masculino). 2. De las palabras dichas (Gen Plural).",
+            en: "1. The sense (Acc Masc). 2. Of the words said (Gen Pl).",
+            de: "1. den Sinn (Akk). 2. der gesagten Worte (Gen)."
+        },
+        slots: [
+            { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "gesagten", options: ["gesagte", "gesagten", "gesagter", "gesagtes"] }
+        ]
+    },
+    {
+        id: 247, level: 'C1', case: 'Dat', category: 'Verbo Dativo + Participio I',
+        text: "Ich {folge} ___ ___ {fliehenden} Dieb.",
+        noun: "Dieb (m)",
+        verbDesc: {
+            es: "Folgen: Seguir. Rige Dativo.",
+            en: "Folgen: To follow. Takes Dative.",
+            de: "Folgen + Dativ."
+        },
+        explanation: {
+            es: "Sigo al ladrón que huye ahora (Participio I). Dativo masculino.",
+            en: "I follow the thief fleeing now. Masc Dative.",
+            de: "Maskulin Dativ + Partizip I."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["der", "den", "dem", "das"] },
+            { type: 'adj', answer: "fliehenden", options: ["fliehende", "fliehenden", "fliehender", "fliehendes"] }
+        ]
+    },
+    {
+        id: 248, level: 'C1', case: 'Gen', category: 'N-Deklination + Genitivo',
+        text: "Die Meinung ___ ___ {Experten} ist gefragt.",
+        noun: "Experte (m)",
+        verbDesc: {
+            es: "Sein: Ser. Genitivo posesivo.",
+            en: "Sein: To be. Possessive Genitive.",
+            de: "Genitivattribut."
+        },
+        explanation: {
+            es: "La opinión del experto. Genitivo masculino + N-Deklination.",
+            en: "The expert's opinion. Masc Genitive + N-decl.",
+            de: "Maskulin Genitiv + N-Deklination."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "bekannten", options: ["bekannte", "bekannten", "bekannter", "bekanntes"] }
+        ]
+    },
+    {
+        id: 249, level: 'C1', case: 'Nom/Dat/Akk', category: 'Triple + Participio II',
+        text: "___ ___ Vater {zeigt} ___ ___ Kind ___ ___ {reparierte} Spielzeug.",
+        noun: "Vater (m), Kind (n), Spielzeug (n)",
+        verbDesc: {
+            es: "Zeigen: Mostrar. (Nom zeigt Dat Akk).",
+            en: "Zeigen: To show.",
+            de: "Zeigen: Nom + Dat + Akk."
+        },
+        explanation: {
+            es: "1. Sujeto. 2. Receptor (Dat Neutro). 3. Juguete reparado (Akk Neutro).",
+            en: "1. Subject. 2. Recipient (Dat). 3. Repaired toy (Acc).",
+            de: "1. Der Vater (Nom). 2. dem Kind (Dat). 3. das reparierte Spielzeug (Akk)."
+        },
+        slots: [
+            { type: 'art', answer: "Der", options: ["Der", "Den", "Dem", "Des"] },
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'art', answer: "das", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "reparierte", options: ["reparierte", "reparierten", "reparierter", "repariertes"] }
+        ]
+    },
+    {
+        id: 250, level: 'C1', case: 'Gen/Dat/Akk', category: 'Grand Finale: Anidada Total',
+        text: "{Wegen} ___ ___ {Lärms} {reicht} ___ ___ {Nachbar} ___ ___ {geschriebene} Beschwerde ein.",
+        noun: "Lärm (m), Nachbar (m), Beschwerde (f)",
+        verbDesc: {
+            es: "Einreichen: Entregar/Presentar oficialmente (Akk). Wegen (Gen).",
+            en: "Einreichen: To submit (Acc). Wegen (Gen).",
+            de: "Wegen (Gen) + Nom + Akk."
+        },
+        explanation: {
+            es: "1. Debido al ruido (Gen). 2. El vecino (Nom + N-Dekl). 3. Queja escrita (Akk).",
+            en: "1. Due to noise (Gen). 2. The neighbor (Nom + N-decl). 3. Written complaint (Acc).",
+            de: "1. Gen (Wegen). 2. Nom (Subjekt). 3. Akk (Objekt)."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "unerträglichen", options: ["unerträgliche", "unerträglichen", "unerträglicher", "unerträgliches"] },
+            { type: 'art', answer: "der", options: ["der", "den", "dem", "des"] },
+            { type: 'art', answer: "die", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "geschriebene", options: ["geschriebene", "geschriebenen", "geschriebener", "geschriebenes"] }
+        ]
+    }         
+            
+
+
+            
             
         ];
