@@ -259,7 +259,7 @@
             // Obtener preguntas filtradas en el idioma actual
             const getInitialStack = () => {
                 const rawPool = getQuestionPool(lang);
-                const negatedCases = Object.entries(cases)
+                const negatedCases = Object.entries(config.cases)
                                               .filter(([_, value]) => value === false)
                                               .map(([key]) => key);
                 return rawPool.filter(q => {
