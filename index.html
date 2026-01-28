@@ -357,6 +357,8 @@
                 const elements = [];
                 let slotCounter = 0;
                 const tokenRegex = /({.*?}|___)/g;
+                if(!config.showGenderHint) 
+                {currentQ.text =  currentQ.text.replace(/\s?(\([mfn]\)|\(pl\))\s?/g, ' ');}
                 const tokens = currentQ.text.split(tokenRegex);
 
                 tokens.forEach((token, idx) => {
@@ -606,8 +608,8 @@
                                 {/* Pista Sustantivo */}
                                 <div className="mb-6 text-center">
                                     <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">{T.noun}</span>
-                                    <p className="text-xl font-serif text-slate-700 italic mt-1">
-                                        {config.showGenderHint ? currentQ.noun : currentQ.noun.replace(/\([mfn]\)/g, '')}
+                                    <p className="text-xl font-serif text-slate-700 italic mt-1">  
+                                        {config.showGenderHint ? currentQ.noun : currentQ.noun.replace(/\([mfn]\)|\(pl\)/g, '')}
                                     </p>
                                 </div>
 
