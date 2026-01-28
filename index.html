@@ -357,8 +357,7 @@
                 const elements = [];
                 let slotCounter = 0;
                 const tokenRegex = /({.*?}|___)/g;
-                if(!config.showGenderHint) 
-                {currentQ.text =  currentQ.text.replace(/\s?(\([mfn]\)|\(pl\))\s?/g, ' ');}
+                currentQ.text =  currentQ.text.replace(/\s?(\([mfn]\)|\(pl\))\s?/g, ' ');
                 const tokens = currentQ.text.split(tokenRegex);
 
                 tokens.forEach((token, idx) => {
