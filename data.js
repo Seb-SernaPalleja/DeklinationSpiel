@@ -5108,7 +5108,477 @@ var data = [
         ]
     }         
             
-
+,
+         {
+        id: 276, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Man {klagte} ___ ___ {Diebstahls} an.",
+        noun: "Diebstahl (m)",
+        verbDesc: {
+            es: "Anklagen: Acusar a alguien de algo. Alguien (Akk) de algo (Gen).",
+            en: "Anklagen: To accuse someone of something. Someone (Acc) of something (Gen).",
+            de: "Jemanden (Akk) einer Sache (Gen) anklagen."
+        },
+        explanation: {
+            es: "Acusar 'del' robo. Genitivo masculino 'des'.",
+            en: "Accused of the theft. Masculine Genitive 'des'.",
+            de: "Maskulin Genitiv 'des' + '-en' (Adj)."
+        },
+        slots: [
+            { type: 'art', answer: "ihn", options: ["er", "ihn", "ihm", "seiner"] },
+            { type: 'art', answer: "des", options: ["der", "den", "dem", "des"] },
+            { type: 'adj', answer: "schweren", options: ["schwere", "schweren", "schwerer", "schweres"] }
+        ]
+    },
+    {
+        id: 277, level: 'C2', case: 'Nom', category: 'Gerundivum (zu + Partizip I)',
+        text: "___ ___ {zu} {lösenden} {Probleme} sind komplex.",
+        noun: "Probleme (pl)",
+        verbDesc: {
+            es: "Gerundivo: 'zu' + Partizip I. Indica que algo 'debe ser' hecho.",
+            en: "Gerundive: 'zu' + Participle I. Indicates that something 'must be' done.",
+            de: "Gerundivum (modales Partizip)."
+        },
+        explanation: {
+            es: "Los problemas 'que deben ser resueltos'. Nominativo plural, declinación débil '-en'.",
+            en: "The problems to be solved. Plural Nominative, weak declension '-en'.",
+            de: "Plural Nominativ, schwache Adjektivendung."
+        },
+        slots: [
+            { type: 'art', answer: "Die", options: ["Die", "Der", "Das", "Den"] },
+            { type: 'adj', answer: "schnell", options: ["schnell", "schnelle", "schnellen", "schneller"] }
+        ]
+    },
+    {
+        id: 278, level: 'C2', case: 'Gen', category: 'Adjetivo con Genitivo',
+        text: "Er ist ___ ___ {Sprache} {mächtig}.",
+        noun: "Sprache (f)",
+        verbDesc: {
+            es: "Einer Sache mächtig sein: Dominar/ser maestro de algo. Rige Genitivo.",
+            en: "Einer Sache mächtig sein: To master something. Takes Genitive.",
+            de: "Einer Sache (Gen) mächtig sein."
+        },
+        explanation: {
+            es: "Dominar el idioma. Genitivo femenino 'der'.",
+            en: "Mastering the language. Feminine Genitive 'der'.",
+            de: "Feminin Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "deutschen", options: ["deutsche", "deutschen", "deutscher", "deutsches"] }
+        ]
+    },
+    {
+        id: 279, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Mangels)',
+        text: "{Mangels} ___ ___ {Beweise} wurde er freigesprochen.",
+        noun: "Beweise (pl)",
+        verbDesc: {
+            es: "Mangels: Por falta de. Rige Genitivo.",
+            en: "Mangels: For lack of. Takes Genitive.",
+            de: "Mangels + Genitiv."
+        },
+        explanation: {
+            es: "Por falta de pruebas claras. Genitivo plural 'der'.",
+            en: "For lack of clear evidence. Plural Genitive 'der'.",
+            de: "Plural Genitiv 'der'."
+        },
+        slots: [
+            { type: 'adj', answer: "eindeutiger", options: ["eindeutige", "eindeutigen", "eindeutiger", "eindeutiges"] }
+        ]
+    },
+    {
+        id: 280, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Eingedenk)',
+        text: "{Eingedenk} ___ ___ {Worte} blieb er ruhig.",
+        noun: "Worte (pl)",
+        verbDesc: {
+            es: "Eingedenk: Teniendo en cuenta / En memoria de. Rige Genitivo.",
+            en: "Eingedenk: Bearing in mind. Takes Genitive.",
+            de: "Eingedenk + Genitiv."
+        },
+        explanation: {
+            es: "Recordando sus palabras. Genitivo plural 'seiner'.",
+            en: "Mindful of his words. Plural Genitive 'seiner'.",
+            de: "Plural Genitiv 'seiner'."
+        },
+        slots: [
+            { type: 'art', answer: "seiner", options: ["seine", "seiner", "seinen", "seinem"] },
+            { type: 'adj', answer: "letzten", options: ["letzte", "letzten", "letzter", "letztes"] }
+        ]
+    },
+    {
+        id: 281, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Wir {harren} ___ ___ {Dinge}, die da kommen.",
+        noun: "Dinge (pl)",
+        verbDesc: {
+            es: "Einer Sache harren: Aguardar con paciencia. Rige Genitivo.",
+            en: "Einer Sache harren: To await something. Takes Genitive.",
+            de: "Einer Sache (Gen) harren."
+        },
+        explanation: {
+            es: "Frase hecha: 'Aguardar los acontecimientos'. Genitivo plural 'der'.",
+            en: "Idiom: 'To await the things to come'. Plural Genitive 'der'.",
+            de: "Gehobener Stil. Plural Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] }
+        ]
+    },
+    {
+        id: 282, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Er {begeht} ___ ___ {Raubes}.",
+        noun: "Raub (m)",
+        verbDesc: {
+            es: "Jemanden eines Raubes bezichtigen: Acusar a alguien de robo. (Aquí usamos bezichtigen implícito).",
+            en: "To charge someone with robbery. (Genitive object).",
+            de: "Jemanden einer Sache (Gen) bezichtigen."
+        },
+        explanation: {
+            es: "Acusado de robo a mano armada. Genitivo masculino 'eines'.",
+            en: "Accused of armed robbery. Masculine Genitive 'eines'.",
+            de: "Maskulin Genitiv 'eines'."
+        },
+        slots: [
+            { type: 'art', answer: "eines", options: ["ein", "einen", "einem", "eines"] },
+            { type: 'adj', answer: "bewaffneten", options: ["bewaffnete", "bewaffneten", "bewaffneter", "bewaffnetes"] }
+        ]
+    },
+    {
+        id: 283, level: 'C2', case: 'Gen', category: 'Adjetivo con Genitivo',
+        text: "Sie ist ___ ___ {Lobes} {würdig}.",
+        noun: "Lob (n)",
+        verbDesc: {
+            es: "Einer Sache würdig sein: Ser digno de algo. Rige Genitivo.",
+            en: "Einer Sache würdig sein: To be worthy of. Takes Genitive.",
+            de: "Einer Sache (Gen) würdig sein."
+        },
+        explanation: {
+            es: "Digna del mayor elogio. Genitivo neutro 'des'.",
+            en: "Worthy of the highest praise. Neuter Genitive 'des'.",
+            de: "Neutrum Genitiv 'des' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "höchsten", options: ["höchste", "höchsten", "höchster", "höchstes"] }
+        ]
+    },
+    {
+        id: 284, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Behufs)',
+        text: "{Behufs} ___ ___ {Prüfung} werden alle Daten gesammelt.",
+        noun: "Prüfung (f)",
+        verbDesc: {
+            es: "Behufs: Con el objeto de / A efectos de. Rige Genitivo.",
+            en: "Behufs: For the purpose of. Takes Genitive.",
+            de: "Behufs + Genitiv."
+        },
+        explanation: {
+            es: "Uso administrativo extremo. Genitivo femenino 'der'.",
+            en: "Extreme administrative usage. Feminine Genitive 'der'.",
+            de: "Kanzleisprache. Feminin Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "des"] },
+            { type: 'adj', answer: "genauen", options: ["genaue", "genauen", "genauer", "genaues"] }
+        ]
+    },
+    {
+        id: 285, level: 'C2', case: 'Gen', category: 'Idiomatismo Genitivo',
+        text: "Ich bin ___ ___ {Mutes}.",
+        noun: "Mut (m)",
+        verbDesc: {
+            es: "Guten Mutes sein: Estar de buen ánimo. Estructura de Genitivo adverbial.",
+            en: "Guten Mutes sein: To be in good spirits. Adverbial Genitive.",
+            de: "Guten Mutes sein (feststehende Wendung)."
+        },
+        explanation: {
+            es: "Frase hecha en Genitivo masculino. Adjetivo fuerte '-en'.",
+            en: "Idiomatic masculine Genitive. Strong adjective ending '-en'.",
+            de: "Maskulin Genitiv ohne Artikel."
+        },
+        slots: [
+            { type: 'adj', answer: "guten", options: ["guter", "guten", "gutem", "gutes"] }
+        ]
+    },
+    {
+        id: 286, level: 'C2', case: 'Dat', category: 'Verbo con Complemento Dativo Arcaico',
+        text: "Es {mangelt} ___ ___ ___ (n) Geld.",
+        noun: "Geld (n)",
+        verbDesc: {
+            es: "Mangeln an: Carecer de. Rige Dativo.",
+            en: "Mangeln an: To lack. Takes Dative.",
+            de: "An etwas (Dat) mangeln."
+        },
+        explanation: {
+            es: "Carecer de dinero suficiente. Dativo neutro 'am' (an dem).",
+            en: "Lack of sufficient money. Neuter Dative 'am'.",
+            de: "Neutrum Dativ 'dem'."
+        },
+        slots: [
+            { type: 'art', answer: "dem", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "nötigen", options: ["nötige", "nötigen", "nötiger", "nötiges"] }
+        ]
+    },
+    {
+        id: 287, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Die Stadt {ermangelt} ___ ___ {Infrastruktur}.",
+        noun: "Infrastruktur (f)",
+        verbDesc: {
+            es: "Ermangeln: Carecer de (más formal que mangeln). Rige Genitivo.",
+            en: "Ermangeln: To lack. Takes Genitive.",
+            de: "Einer Sache (Gen) ermangeln."
+        },
+        explanation: {
+            es: "Carecer de infraestructura moderna. Genitivo femenino 'der'.",
+            en: "Lack of modern infrastructure. Feminine Genitive 'der'.",
+            de: "Gehobener Stil. Feminin Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "modernen", options: ["moderne", "modernen", "moderner", "modernes"] }
+        ]
+    },
+    {
+        id: 288, level: 'C2', case: 'Gen', category: 'Adjetivo con Genitivo',
+        text: "Er {erachtete} ___ ___ {Pflicht} {ledig}.",
+        noun: "Pflicht (f)",
+        verbDesc: {
+            es: "Einer Sache ledig sein: Estar libre/exento de una obligación. Rige Genitivo.",
+            en: "Einer Sache ledig sein: To be free from an obligation. Takes Genitive.",
+            de: "Einer Sache (Gen) ledig sein."
+        },
+        explanation: {
+            es: "Libre de su deber. Genitivo femenino 'seiner'.",
+            en: "Free from his duty. Feminine Genitive 'seiner'.",
+            de: "Feminin Genitiv 'seiner'."
+        },
+        slots: [
+            { type: 'art', answer: "seiner", options: ["seine", "seiner", "seinen", "seinem"] }
+        ]
+    },
+    {
+        id: 289, level: 'C2', case: 'Akk', category: 'Atributo Participial (Partizip II)',
+        text: "___ ___ {gegebene} {Versprechen} {band} ihn.",
+        noun: "Versprechen (n)",
+        verbDesc: {
+            es: "Estructura de Nominativo neutro con adjetivo participial.",
+            en: "Neuter Nominative with participial adjective.",
+            de: "Partizipialattribut im Nominativ."
+        },
+        explanation: {
+            es: "La promesa dada. Sujeto neutro 'Das'.",
+            en: "The given promise. Neuter subject 'Das'.",
+            de: "Neutrum Nominativ."
+        },
+        slots: [
+            { type: 'art', answer: "Das", options: ["Das", "Der", "Die", "Den"] },
+            { type: 'adj', answer: "einmal", options: ["einmal", "einmalige", "einmaligen", "einmaliges"] }
+        ]
+    },
+    {
+        id: 290, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Seitens)',
+        text: "{Seitens} ___ ___ {Regierung} gibt es keine Kritik.",
+        noun: "Regierung (f)",
+        verbDesc: {
+            es: "Seitens: Por parte de. Rige Genitivo.",
+            en: "Seitens: On the part of. Takes Genitive.",
+            de: "Seitens + Genitiv."
+        },
+        explanation: {
+            es: "Por parte del gobierno. Genitivo femenino 'der'.",
+            en: "On the part of the government. Feminine Genitive 'der'.",
+            de: "Feminin Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] }
+        ]
+    },
+    {
+        id: 291, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Er {wurde} ___ ___ {Verbrechens} {überführt}.",
+        noun: "Verbrechen (n)",
+        verbDesc: {
+            es: "Überführen: Declarar culpable / Convencer de un error. Rige Genitivo.",
+            en: "Überführen: To convict of. Takes Genitive.",
+            de: "Eines Verbrechens (Gen) überführt werden."
+        },
+        explanation: {
+            es: "Declarado culpable del crimen. Genitivo neutro 'des'.",
+            en: "Convicted of the crime. Neuter Genitive 'des'.",
+            de: "Neutrum Genitiv 'des'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "grausamen", options: ["grausame", "grausamen", "grausamer", "grausames"] }
+        ]
+    },
+    {
+        id: 292, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Mangels)',
+        text: "{Mangels} ___ ___ {Interesses} fiel die Wahl aus.",
+        noun: "Interesse (n)",
+        verbDesc: {
+            es: "Mangels: Por falta de. Rige Genitivo.",
+            en: "Mangels: For lack of. Takes Genitive.",
+            de: "Mangels + Genitiv."
+        },
+        explanation: {
+            es: "Por falta de interés público. Genitivo neutro 'des'.",
+            en: "For lack of public interest. Neuter Genitive 'des'.",
+            de: "Neutrum Genitiv 'des'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "öffentlichen", options: ["öffentliche", "öffentlichen", "öffentlicher", "öffentliches"] }
+        ]
+    },
+    {
+        id: 293, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Ich {entbehre} ___ ___ {Beweise}.",
+        noun: "Beweise (pl)",
+        verbDesc: {
+            es: "Entbehren: Carecer de (abstracciones). Rige Genitivo.",
+            en: "Entbehren: To lack. Takes Genitive.",
+            de: "Einer Sache (Gen) entbehren."
+        },
+        explanation: {
+            es: "Carece de toda prueba. Genitivo plural 'jeglicher'.",
+            en: "Lacks any proof. Plural Genitive 'jeglicher'.",
+            de: "Plural Genitiv 'jeglicher'."
+        },
+        slots: [
+            { type: 'adj', answer: "jeglicher", options: ["jegliche", "jeglichen", "jeglicher", "jegliches"] }
+        ]
+    },
+    {
+        id: 294, level: 'C2', case: 'Nom', category: 'Atributo Participial Extendido',
+        text: "___ ___ vom {Minister} {vorgelegte} {Gesetzentwurf}...",
+        noun: "Gesetzentwurf (m)",
+        verbDesc: {
+            es: "Estructura técnica de alto nivel (Derecho/Política).",
+            en: "High-level technical structure (Law/Politics).",
+            de: "Erweitertes Partizipialattribut."
+        },
+        explanation: {
+            es: "El proyecto de ley presentado por el ministro. Nominativo masculino 'Der'.",
+            en: "The bill presented by the minister. Masculine Nominative 'Der'.",
+            de: "Maskulin Nominativ."
+        },
+        slots: [
+            { type: 'art', answer: "Der", options: ["Der", "Den", "Dem", "Des"] },
+            { type: 'adj', answer: "neu", options: ["neu", "neue", "neuen", "neuer"] }
+        ]
+    },
+    {
+        id: 295, level: 'C2', case: 'Gen', category: 'Adjetivo con Genitivo',
+        text: "Er ist ___ ___ {Hilfe} {bedürftig}.",
+        noun: "Hilfe (f)",
+        verbDesc: {
+            es: "Bedürftig sein: Necesitar algo / Ser indigente de algo. Rige Genitivo.",
+            en: "Bedürftig sein: To be in need of. Takes Genitive.",
+            de: "Einer Sache (Gen) bedürftig sein."
+        },
+        explanation: {
+            es: "Necesitado de ayuda urgente. Genitivo femenino 'der'.",
+            en: "In need of urgent help. Feminine Genitive 'der'.",
+            de: "Feminin Genitiv 'der' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "dringenden", options: ["dringende", "dringenden", "dringender", "dringendes"] }
+        ]
+    },
+    {
+        id: 296, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Behufs)',
+        text: "{Behufs} ___ ___ {Auskunft} rief er an.",
+        noun: "Auskunft (f)",
+        verbDesc: {
+            es: "Behufs: Con el fin de. Rige Genitivo.",
+            en: "Behufs: For the purpose of. Takes Genitive.",
+            de: "Behufs + Genitiv."
+        },
+        explanation: {
+            es: "A efectos de obtener información adicional. Genitivo femenino 'der'.",
+            en: "For the purpose of additional information. Feminine Genitive 'der'.",
+            de: "Feminin Genitiv 'der'."
+        },
+        slots: [
+            { type: 'art', answer: "der", options: ["die", "der", "den", "das"] },
+            { type: 'adj', answer: "zusätzlichen", options: ["zusätzliche", "zusätzlichen", "zusätzlicher", "zusätzliches"] }
+        ]
+    },
+    {
+        id: 297, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo',
+        text: "Sie {sind} ___ ___ {Amtes} {enthoben}.",
+        noun: "Amt (n)",
+        verbDesc: {
+            es: "Eines Amtes enthoben werden: Ser relevado del cargo. Rige Genitivo.",
+            en: "To be relieved of office. Takes Genitive.",
+            de: "Eines Amtes (Gen) enthoben werden."
+        },
+        explanation: {
+            es: "Relevado de su cargo oficial. Genitivo neutro 'ihres'.",
+            en: "Relieved of their official office. Neuter Genitive 'ihres'.",
+            de: "Neutrum Genitiv 'ihres'."
+        },
+        slots: [
+            { type: 'art', answer: "ihres", options: ["ihr", "ihren", "ihrem", "ihres"] },
+            { type: 'adj', answer: "offiziellen", options: ["offizielle", "offiziellen", "offizieller", "offizielles"] }
+        ]
+    },
+    {
+        id: 298, level: 'C2', case: 'Gen', category: 'Adjetivo con Genitivo',
+        text: "Ich bin mir ___ ___ {Risikos} {bewusst}.",
+        noun: "Risiko (n)",
+        verbDesc: {
+            es: "Bewusst sein: Ser consciente de algo. Rige Genitivo.",
+            en: "Bewusst sein: To be aware of. Takes Genitive.",
+            de: "Einer Sache (Gen) bewusst sein."
+        },
+        explanation: {
+            es: "Soy consciente del riesgo inminente. Genitivo neutro 'des'.",
+            en: "I am aware of the imminent risk. Neuter Genitive 'des'.",
+            de: "Neutrum Genitiv 'des' + '-en'."
+        },
+        slots: [
+            { type: 'art', answer: "des", options: ["das", "dem", "des", "den"] },
+            { type: 'adj', answer: "bevorstehenden", options: ["bevorstehende", "bevorstehenden", "bevorstehender", "bevorstehendes"] }
+        ]
+    },
+    {
+        id: 299, level: 'C2', case: 'Gen', category: 'Preposición Genitiva (Zeit)',
+        text: "{Zeit} ___ ___ {Lebens} blieb er seiner Linie treu.",
+        noun: "Leben (n)",
+        verbDesc: {
+            es: "Zeit: Durante / A lo largo de (tiempo vital). Rige Genitivo.",
+            en: "Zeit: Throughout. Takes Genitive.",
+            de: "Zeit + Genitiv."
+        },
+        explanation: {
+            es: "A lo largo de toda su vida. Genitivo neutro 'seines'.",
+            en: "Throughout his entire life. Neuter Genitive 'seines'.",
+            de: "Neutrum Genitiv 'seines'."
+        },
+        slots: [
+            { type: 'art', answer: "seines", options: ["sein", "seinen", "seinem", "seines"] },
+            { type: 'adj', answer: "ganzen", options: ["ganze", "ganzen", "ganzer", "ganzes"] }
+        ]
+    },
+    {
+        id: 300, level: 'C2', case: 'Gen', category: 'Verbo con Complemento Genitivo (Final)',
+        text: "Er {rühmt} sich ___ ___ {Erfolge}.",
+        noun: "Erfolge (pl)",
+        verbDesc: {
+            es: "Sich rühmen: Jactarse de algo. Rige Genitivo.",
+            en: "Sich rühmen: To boast of. Takes Genitive.",
+            de: "Sich seiner Erfolge rühmen."
+        },
+        explanation: {
+            es: "Se jacta de sus extraordinarios éxitos. Genitivo plural 'seiner'.",
+            en: "He boasts of his extraordinary successes. Plural Genitive 'seiner'.",
+            de: "Plural Genitiv 'seiner'."
+        },
+        slots: [
+            { type: 'art', answer: "seiner", options: ["seine", "seiner", "seinen", "seinem"] },
+            { type: 'adj', answer: "außerordentlichen", options: ["außerordentliche", "außerordentlichen", "außerordentlicher", "außerordentliches"] }
+        ]
+    }   
 
             
             
