@@ -1290,7 +1290,7 @@ var data = [
     },
     {
         id: 69, level: 'B2', case: 'Dat/Akk', category: 'Doble Objeto',
-        text: "Ich {schenke} ___ ___ Nichte ___ ___ Puppe.",
+        text: "Ich {schenke} ___ Nichte ___ Puppe.",
         noun: "Nichte (f), Puppe (f)",
         verbDesc: {
             es: "Schenken: Regalar. (Nom schenkt Dat Akk).",
@@ -2498,7 +2498,7 @@ var data = [
     },
 {
         id: 126, level: 'B2', case: 'Dat', category: 'Superlativ + Präp',
-        text: "In ___ ___ ___ (f) Stadt der Welt ist es laut.",
+        text: "In ___ ___ (f) Stadt der Welt ist es laut.",
         noun: "Stadt (f)",
         verbDesc: {
             es: "Sein: Ser/Estar. En este caso indica ubicación.",
@@ -2519,7 +2519,7 @@ var data = [
     },
     {
         id: 127, level: 'B2', case: 'Akk', category: 'Komparativ + Verbe',
-        text: "Ich suche ___ ___ ___ (n) Angebot.",
+        text: "Ich suche ___ ___ (n) Angebot.",
         noun: "Angebot (n)",
         verbDesc: {
             es: "Suchen: Buscar. Rige Akkusativ.",
@@ -2540,7 +2540,7 @@ var data = [
     },
     {
         id: 128, level: 'C1', case: 'Dat', category: 'Komparativ + Präp',
-        text: "Ich arbeite {mit} ___ ___ ___ (m) Bruder zusammen.",
+        text: "Ich arbeite {mit} ___ ___ (m) Bruder zusammen.",
         noun: "Bruder (m)",
         verbDesc: {
             es: "Zusammenarbeiten mit: Colaborar con. Rige Dativo.",
@@ -2561,7 +2561,7 @@ var data = [
     },
     {
         id: 129, level: 'C1', case: 'Gen', category: 'Komparativ + Präp (Gen)',
-        text: "{Trotz} ___ ___ ___ (n) Wetters sind wir gewandert.",
+        text: "{Trotz} ___ ___ (n) Wetters sind wir gewandert.",
         noun: "Wetter (n)",
         verbDesc: {
             es: "Wandern: Caminar/Hacer senderismo.",
@@ -2603,7 +2603,7 @@ var data = [
     },
     {
         id: 131, level: 'B2', case: 'Nom', category: 'Superlativ + Artikel',
-        text: "Das ist ___ ___ ___ (n) Problem.",
+        text: "Das ist ___ ___ (n) Problem.",
         noun: "Problem (n)",
         verbDesc: {
             es: "Sein: Ser. Nominativo.",
@@ -2624,7 +2624,7 @@ var data = [
     },
     {
         id: 132, level: 'C1', case: 'Akk', category: 'Superlativ + Präp',
-        text: "Wir spielen {gegen} ___ ___ ___ (m) Gegner.",
+        text: "Wir spielen {gegen} ___ ___ (m) Gegner.",
         noun: "Gegner (m)",
         verbDesc: {
             es: "Spielen gegen: Jugar contra. Rige siempre Akkusativ.",
@@ -2645,7 +2645,7 @@ var data = [
     },
     {
         id: 133, level: 'C1', case: 'Dat', category: 'Komparativ + Präp',
-        text: "Das Buch ist {von} ___ ___ ___ (m) Autor.",
+        text: "Das Buch ist {von} ___ ___ (m) Autor.",
         noun: "Autor (m)",
         verbDesc: {
             es: "Von: De (procedencia). Rige Dativo.",
@@ -2666,7 +2666,7 @@ var data = [
     },
     {
         id: 134, level: 'C1', case: 'Gen', category: 'Superlativ + Präp (Gen)',
-        text: "{Während} ___ ___ ___ (f) Reise habe ich viel gelernt.",
+        text: "{Während} ___ ___ (f) Reise habe ich viel gelernt.",
         noun: "Reise (f)",
         verbDesc: {
             es: "Während: Durante. Rige Genitivo.",
@@ -2708,7 +2708,7 @@ var data = [
     },
     {
         id: 136, level: 'C1', case: 'Akk', category: 'Komparativ + Präp',
-        text: "Wir hoffen auf ___ ___ ___ (f) Lösung.",
+        text: "Wir hoffen auf ___ ___ (f) Lösung.",
         noun: "Lösung (f)",
         verbDesc: {
             es: "Hoffen auf: Tener esperanza en. Rige Akkusativ.",
@@ -2729,7 +2729,7 @@ var data = [
     },
     {
         id: 137, level: 'B2', case: 'Dat', category: 'Superlativ + Präp',
-        text: "Er spricht mit ___ ___ ___ (pl) Kindern.",
+        text: "Er spricht mit ___ ___ (pl) Kindern.",
         noun: "Kinder (pl)",
         verbDesc: {
             es: "Sprechen mit: Hablar con. Dativo.",
@@ -2770,7 +2770,7 @@ var data = [
     },
     {
         id: 139, level: 'B2', case: 'Nom', category: 'Superlativ + Mixt',
-        text: "Das war ___ ___ ___ (m) Tag meines Lebens.",
+        text: "Das war ___ ___ (m) Tag meines Lebens.",
         noun: "Tag (m)",
         verbDesc: {
             es: "Sein: Ser. Nominativo.",
@@ -2791,7 +2791,7 @@ var data = [
     },
     {
         id: 140, level: 'C1', case: 'Akk', category: 'Komparativ + N-Dekl',
-        text: "Ich kenne ___ ___ ___ (m) Experten.",
+        text: "Ich kenne ___ ___ (m) Experten.",
         noun: "Experte (m)",
         verbDesc: {
             es: "Kennen: Conocer. Akkusativ.",
@@ -2812,7 +2812,7 @@ var data = [
     },
     {
         id: 141, level: 'B2', case: 'Dat', category: 'Komparativ + Präp',
-        text: "Seit ___ ___ ___ (f) Woche geht es ihm besser.",
+        text: "Seit ___ ___ (f) Woche geht es ihm besser.",
         noun: "Woche (f)",
         verbDesc: {
             es: "Seit: Desde hace. Dativo.",
@@ -2833,7 +2833,7 @@ var data = [
     },
     {
         id: 142, level: 'C1', case: 'Gen', category: 'Superlativ + Genitiv',
-        text: "Die Qualität ___ ___ ___ (n) Produktes ist wichtig.",
+        text: "Die Qualität ___ ___ (n) Produktes ist wichtig.",
         noun: "Produkt (n)",
         verbDesc: {
             es: "Sein: Ser.",
@@ -2854,7 +2854,7 @@ var data = [
     },
     {
         id: 143, level: 'C1', case: 'Akk', category: 'Komparativ + Präp',
-        text: "Er ist {stolz} auf ___ ___ ___ (m) Erfolg.",
+        text: "Er ist {stolz} auf ___ ___ (m) Erfolg.",
         noun: "Erfolg (m)",
         verbDesc: {
             es: "Stolz sein auf: Estar orgulloso de. Akkusativ.",
@@ -2875,7 +2875,7 @@ var data = [
     },
     {
         id: 144, level: 'B2', case: 'Dat', category: 'Superlativ + Präp',
-        text: "Wir wohnen {in} ___ ___ ___ (n) Haus der Straße.",
+        text: "Wir wohnen {in} ___ ___ (n) Haus der Straße.",
         noun: "Haus (n)",
         verbDesc: {
             es: "Wohnen in: Vivir en. Dativo (ubicación).",
@@ -2916,7 +2916,7 @@ var data = [
     },
     {
         id: 146, level: 'B2', case: 'Nom', category: 'Komparativ + Mixt',
-        text: "Sie ist ___ ___ ___ (f) Sportlerin.",
+        text: "Sie ist ___ ___ (f) Sportlerin.",
         noun: "Sportlerin (f)",
         verbDesc: {
             es: "Sein: Ser. Nominativo.",
@@ -2937,7 +2937,7 @@ var data = [
     },
     {
         id: 147, level: 'C1', case: 'Dat', category: 'Komparativ + Präp',
-        text: "Ich bin {mit} ___ ___ ___ (n) Ergebnis zufrieden.",
+        text: "Ich bin {mit} ___ ___ (n) Ergebnis zufrieden.",
         noun: "Ergebnis (n)",
         verbDesc: {
             es: "Zufrieden sein mit: Estar satisfecho con. Dativo.",
@@ -2958,7 +2958,7 @@ var data = [
     },
     {
         id: 148, level: 'B2', case: 'Akk', category: 'Superlativ + Artikel',
-        text: "Er liest ___ ___ ___ (n) Buch des Jahres.",
+        text: "Er liest ___ ___ (n) Buch des Jahres.",
         noun: "Buch (n)",
         verbDesc: {
             es: "Lesen: Leer. Akkusativ.",
@@ -2979,7 +2979,7 @@ var data = [
     },
     {
         id: 149, level: 'C1', case: 'Gen', category: 'Komparativ + Genitiv',
-        text: "Die Hilfe ___ ___ ___ (m) Freundes war rettend.",
+        text: "Die Hilfe ___ ___ (m) Freundes war rettend.",
         noun: "Freund (m)",
         verbDesc: {
             es: "Sein: Ser.",
@@ -3000,7 +3000,7 @@ var data = [
     },
     {
         id: 150, level: 'C1', case: 'Dat', category: 'Superlativ + Stark',
-        text: "Mit ___ ___ ___ (f) Mühe hat er es geschafft.",
+        text: "Mit ___ (f) Mühe hat er es geschafft.",
         noun: "Mühe (f)",
         verbDesc: {
             es: "Schaffen: Lograr/Conseguir.",
@@ -3018,54 +3018,6 @@ var data = [
             { type: 'adj', answer: "Größter", options: ["Größte", "Größter", "Größten", "Größtes"] }
         ]
     },
-
-
-
-            
-
-            // --- NIVEL 2: ARTÍCULO + ADJETIVO ---
-            { 
-                id: 101, level: 'B1', case: 'Akk', category: 'Preposición Fija', 
-                text: "Wir {gehen} ohne ___ ___ Hund spazieren.", 
-                noun: "Hund (m)", 
-                verbDesc: {
-                    es: "Gehen: Ir/Caminar. Verbo de movimiento.",
-                    en: "Gehen: To go/walk. Verb of motion.",
-                    tr: "Gehen: Gitmek/Yürümek.",
-                    de: "Gehen: Bewegungsverb."
-                },
-                explanation: {
-                    es: "'Ohne' siempre rige Akkusativ. Masculino 'den', adjetivo '-en'.",
-                    en: "'Ohne' always takes Accusative. Masculine 'den', adjective '-en'.",
-                    tr: "'Ohne' her zaman Akkusativ alır. Eril 'den', sıfat '-en'.",
-                    de: "'Ohne' verlangt immer Akkusativ."
-                },
-                slots: [
-                    { type: 'art', answer: "den", options: ["der", "den", "dem", "des"] },
-                    { type: 'adj', answer: "alten", options: ["alte", "alten", "altem", "altes"] }
-                ]
-            },
-            { 
-                id: 102, level: 'C1', case: 'Gen', category: 'Genitivo Posesivo', 
-                text: "Das ist das Auto {meines} ___ Bruders.", 
-                noun: "Bruder (m)", 
-                verbDesc: {
-                    es: "Sein: Ser/Estar. Verbo copulativo.",
-                    en: "Sein: To be. Copula verb.",
-                    tr: "Sein: Olmak.",
-                    de: "Sein: Kopulaverb."
-                },
-                explanation: {
-                    es: "Genitivo Masculino. Posesivo 'mein' -> 'meines', adjetivo mixto -> '-en'.",
-                    en: "Masculine Genitive. Possessive 'meines', mixed adjective -> '-en'.",
-                    tr: "Eril Genitiv. İyelik 'meines', karışık sıfat -> '-en'.",
-                    de: "Maskulin Genitiv. Possessiv 'meines', Adjektiv '-en'."
-                },
-                slots: [
-                    { type: 'adj', answer: "jüngeren", options: ["jüngere", "jüngeren", "jüngerem", "jüngeres"] }
-                ]
-            },
-
             {
         id: 151, level: 'B2', case: 'Akk', category: 'Wechselpräposition (Wohin?)',
         text: "Ich {stelle} die Leiter {an} ___ ___ Wand.",
@@ -4571,7 +4523,7 @@ var data = [
     },
 {
         id: 226, level: 'C1', case: 'Dat/Akk/Gen', category: 'Triple Declinación',
-        text: "Ich {gebe} ___ ___ neu___ Nachbarn ___ Brief ___ ___ Vaters.",
+        text: "Ich {gebe} ___ neu___ Nachbarn ___ Brief ___ Vaters.",
         noun: "Nachbar (m), Brief (m), Vater (m)",
         verbDesc: {
             es: "Geben: Dar. (Nom gibt Dat Akk). Además incluye un Genitivo.",
@@ -4712,7 +4664,7 @@ var data = [
     },
     {
         id: 232, level: 'C1', case: 'Dat/Gen', category: 'Preposición Dativa + Posesivo Genitivo',
-        text: "Ich {fahre} {mit} ___ ___ Auto ___ ___ Chefs.",
+        text: "Ich {fahre} {mit} ___ ___ Auto ___ Chefs.",
         noun: "Auto (n), Chef (m)",
         verbDesc: {
             es: "Fahren mit: Ir con/en. Rige Dativo.",
@@ -4782,7 +4734,7 @@ var data = [
     },
     {
         id: 235, level: 'C1', case: 'Dat/Akk/Gen', category: 'Reflexivo Dativ + Triple',
-        text: "Ich {leihe} ___ ___ ___ (m) Freund ___ ___ Buch ___ ___ Schwester.",
+        text: "Ich {leihe} ___ ___ (m) Freund ___ ___ Buch ___ Schwester.",
         noun: "Freund (m), Buch (n), Schwester (f)",
         verbDesc: {
             es: "Leihen: Prestar. (Nom leiht Dat Akk). Incluye Genitivo.",
@@ -4827,7 +4779,7 @@ var data = [
     },
     {
         id: 237, level: 'C1', case: 'Akk/Dat/Gen', category: 'Participio I + Anidada',
-        text: "Ich {sehe} ___ ___ {lachenden} Kinder in ___ ___ Park ___ ___ Stadt.",
+        text: "Ich {sehe} ___ {lachenden} Kinder in ___ ___ Park ___ Stadt.",
         noun: "Kinder (pl), Park (m), Stadt (f)",
         verbDesc: {
             es: "Sehen: Ver (Akk). In: Ubicación (Dat).",
@@ -4928,7 +4880,7 @@ var data = [
     },
     {
         id: 242, level: 'C1', case: 'Gen/Dat', category: 'Genitivo + N-Deklination',
-        text: "{Anlässlich} ___ ___ {Besuchs} ___ ___ {Präsidenten}...",
+        text: "{Anlässlich} ___ ___ {Besuchs} ___ {Präsidenten}...",
         noun: "Besuch (m), Präsident (m)",
         verbDesc: {
             es: "Anlässlich: Con motivo de (Gen). Posesión (Gen).",
@@ -4948,7 +4900,7 @@ var data = [
     },
     {
         id: 243, level: 'C1', case: 'Nom/Dat/Akk', category: 'Doble Objeto + Participio II',
-        text: "___ ___ Mann {schickt} ___ ___ Frau ___ ___ {geschriebenen} Brief.",
+        text: "___ Mann {schickt} ___ Frau ___ ___ {geschriebenen} Brief.",
         noun: "Mann (m), Frau (f), Brief (m)",
         verbDesc: {
             es: "Schicken: Enviar. (Nom schickt Dat Akk).",
@@ -5008,7 +4960,7 @@ var data = [
     },
     {
         id: 246, level: 'C1', case: 'Akk/Gen', category: 'Objeto + Posesión',
-        text: "Ich {verstehe} ___ ___ {Sinn} ___ ___ {gesagten} Worte.",
+        text: "Ich {verstehe} ___ ___ {Sinn} ___ {gesagten} Worte.",
         noun: "Sinn (m), Worte (pl)",
         verbDesc: {
             es: "Verstehen: Entender (Akk). Genitivo posesivo.",
@@ -5066,7 +5018,7 @@ var data = [
     },
     {
         id: 249, level: 'C1', case: 'Nom/Dat/Akk', category: 'Triple + Participio II',
-        text: "___ ___ Vater {zeigt} ___ ___ Kind ___ ___ {reparierte} Spielzeug.",
+        text: "___ Vater {zeigt} ___ Kind ___ ___ {reparierte} Spielzeug.",
         noun: "Vater (m), Kind (n), Spielzeug (n)",
         verbDesc: {
             es: "Zeigen: Mostrar. (Nom zeigt Dat Akk).",
@@ -5087,7 +5039,7 @@ var data = [
     },
     {
         id: 250, level: 'C1', case: 'Gen/Dat/Akk', category: 'Grand Finale: Anidada Total',
-        text: "{Wegen} ___ ___ {Lärms} {reicht} ___ ___ {Nachbar} ___ ___ {geschriebene} Beschwerde ein.",
+        text: "{Wegen} ___ ___ {Lärms} {reicht} ___ {Nachbar} ___ ___ {geschriebene} Beschwerde ein.",
         noun: "Lärm (m), Nachbar (m), Beschwerde (f)",
         verbDesc: {
             es: "Einreichen: Entregar/Presentar oficialmente (Akk). Wegen (Gen).",
@@ -5128,7 +5080,7 @@ var data = [
     },
     {
         id: 252, level: 'C2', case: 'Nom', category: 'Atributo Participial Extendido',
-        text: "___ ___ von ___ ___ {Experten} {erstellte} Gutachten liegt vor.",
+        text: "___ von ___ ___ {Experten} {erstellte} Gutachten liegt vor.",
         noun: "Gutachten (n), Experte (m)",
         verbDesc: {
             es: "Atributo extendido: Todo lo que está entre el artículo y el sustantivo funciona como adjetivo.",
@@ -5338,7 +5290,7 @@ var data = [
     },
     {
         id: 263, level: 'C2', case: 'Akk', category: 'Atributo Participial II Extendido',
-        text: "Ich {lese} ___ ___ von ___ ___ {Autor} {verfassten} {Artikel}.",
+        text: "Ich {lese} ___ von ___ ___ {Autor} {verfassten} {Artikel}.",
         noun: "Autor (m), Artikel (m)",
         verbDesc: {
             es: "Estructura de lectura académica. Objeto directo con atributo extendido.",
@@ -5772,7 +5724,7 @@ var data = [
     },
     {
         id: 286, level: 'C2', case: 'Dat', category: 'Verbo con Complemento Dativo Arcaico',
-        text: "Es {mangelt} ___ ___ ___ (n) Geld.",
+        text: "Es {mangelt} ___ ___ (n) Geld.",
         noun: "Geld (n)",
         verbDesc: {
             es: "Mangeln an: Carecer de. Rige Dativo.",
