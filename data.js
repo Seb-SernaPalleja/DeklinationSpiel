@@ -11784,7 +11784,7 @@ var data = [
             "de": "Sein: Nominativ-Verb."
         },
         "explanation": {
-            "es": "Ser consciente 'de la' culpa. Genitivo femenino 'der'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Ser consciente 'de la' culpa. Genitivo femenino 'der'.",
             "en": "Aware of the guilt. Feminine Genitive 'der'.",
             "de": "Feminin Genitiv 'der'."
         },
@@ -11828,7 +11828,7 @@ var data = [
             "de": "Bleiben."
         },
         "explanation": {
-            "es": "Uso literario. Genitivo neutro 'des'.",
+            "es": "La preposición 'Ob' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Uso literario. Genitivo neutro 'des'.",
             "en": "Literary usage. Neuter Genitive 'des'.",
             "de": "Neutrum Genitiv 'des'."
         },
@@ -11872,7 +11872,7 @@ var data = [
             "de": "Werden: Nominativ / Passiv."
         },
         "explanation": {
-            "es": "Voz pasiva con complemento genitivo neutro 'seines'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Voz pasiva con complemento genitivo neutro 'seines'.",
             "en": "Passive voice with neuter genitive complement 'seines'.",
             "de": "Neutrum Genitiv 'seines'."
         },
@@ -11916,7 +11916,7 @@ var data = [
             "de": "Gelingen: Dativ."
         },
         "explanation": {
-            "es": "Uso técnico antiguo. Genitivo neutro 'eines'.",
+            "es": "La preposición 'Vermittelst' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Uso técnico antiguo. Genitivo neutro 'eines'.",
             "en": "Old technical usage. Neuter Genitive 'eines'.",
             "de": "Neutrum Genitiv 'eines'."
         },
@@ -12004,7 +12004,7 @@ var data = [
             "de": "Sein."
         },
         "explanation": {
-            "es": "A lo largo de su vida. Genitivo neutro 'seines'.",
+            "es": "La preposición 'Zeit' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). A lo largo de su vida. Genitivo neutro 'seines'.",
             "en": "Throughout his life. Neuter Genitive 'seines'.",
             "de": "Neutrum Genitiv 'seines'."
         },
@@ -12047,7 +12047,7 @@ var data = [
             "de": "Sich erbarmen: Genitiv."
         },
         "explanation": {
-            "es": "Uso literario/bíblico. Genitivo plural 'der'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Uso literario/bíblico. Genitivo plural 'der'.",
             "en": "Literary/Biblical usage. Plural Genitive 'der'.",
             "de": "Plural Genitiv 'der'."
         },
@@ -12080,7 +12080,7 @@ var data = [
             "de": "Kommen."
         },
         "explanation": {
-            "es": "Uso administrativo. Genitivo femenino sin artículo (declinación fuerte '-er').",
+            "es": "La preposición 'Zwecks' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Uso administrativo. Genitivo femenino sin artículo (declinación fuerte '-er').",
             "en": "Administrative usage. Feminine Genitive without article (strong declension '-er').",
             "de": "Feminin Genitiv ohne Artikel."
         },
@@ -12111,7 +12111,7 @@ var data = [
             "de": "Jemanden eines Verbrechens bezichtigen."
         },
         "explanation": {
-            "es": "Acusar de un asesinato. Genitivo masculino 'eines'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Acusar de un asesinato. Genitivo masculino 'eines'.",
             "en": "Accuse of a murder. Masculine Genitive 'eines'.",
             "de": "Maskulin Genitiv 'eines'."
         },
@@ -12155,7 +12155,7 @@ var data = [
             "de": "Machen: Akkusativ-Verb."
         },
         "explanation": {
-            "es": "Por amor al orden. Genitivo femenino 'der'.",
+            "es": "La preposición 'Halber' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Por amor al orden. Genitivo femenino 'der'.",
             "en": "For the sake of order. Feminine Genitive 'der'.",
             "de": "Feminin Genitiv 'der'."
         },
@@ -12198,7 +12198,7 @@ var data = [
             "de": "Entbehren + Genitiv."
         },
         "explanation": {
-            "es": "Carecer de palabras (quedarse mudo). Genitivo plural 'jeglicher'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Carecer de palabras (quedarse mudo). Genitivo plural 'jeglicher'.",
             "en": "Lacking any words. Plural Genitive 'jeglicher'.",
             "de": "Plural Genitiv 'jeglicher'."
         },
@@ -12230,7 +12230,7 @@ var data = [
             "de": "Müssen: Modalverb."
         },
         "explanation": {
-            "es": "Plazo temporal. Genitivo masculino 'eines'.",
+            "es": "La preposición 'Binnen' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Plazo temporal. Genitivo masculino 'eines'.",
             "en": "Time limit. Masculine Genitive 'eines'.",
             "de": "Maskulin Genitiv 'eines'."
         },
@@ -12274,7 +12274,7 @@ var data = [
             "de": "Anklagen: Akk + Gen."
         },
         "explanation": {
-            "es": "Acusar 'del' robo. Genitivo masculino 'des'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Acusar 'del' robo. Genitivo masculino 'des'.",
             "en": "Accused of the theft. Masculine Genitive 'des'.",
             "de": "Maskulin Genitiv 'des' + '-en' (Adj)."
         },
@@ -12413,7 +12413,7 @@ var data = [
             "de": "Werden: Nominativ / Passiv."
         },
         "explanation": {
-            "es": "Por falta de pruebas claras. Genitivo plural 'der'.",
+            "es": "La preposición 'Mangels' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Por falta de pruebas claras. Genitivo plural 'der'.",
             "en": "For lack of clear evidence. Plural Genitive 'der'.",
             "de": "Plural Genitiv 'der'."
         },
@@ -12445,7 +12445,7 @@ var data = [
             "de": "Sein."
         },
         "explanation": {
-            "es": "Recordando sus palabras. Genitivo plural 'seiner'.",
+            "es": "La preposición 'Eingedenk' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Recordando sus palabras. Genitivo plural 'seiner'.",
             "en": "Mindful of his words. Plural Genitive 'seiner'.",
             "de": "Plural Genitiv 'seiner'."
         },
@@ -12488,7 +12488,7 @@ var data = [
             "de": "Harren: Genitiv."
         },
         "explanation": {
-            "es": "Frase hecha: 'Aguardar los acontecimientos'. Genitivo plural 'der'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Frase hecha: 'Aguardar los acontecimientos'. Genitivo plural 'der'.",
             "en": "Idiom: 'To await the things to come'. Plural Genitive 'der'.",
             "de": "Gehobener Stil. Plural Genitiv 'der'."
         },
@@ -12521,7 +12521,7 @@ var data = [
             "de": "Begehen."
         },
         "explanation": {
-            "es": "Acusado de robo a mano armada. Genitivo masculino 'eines'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Acusado de robo a mano armada. Genitivo masculino 'eines'.",
             "en": "Accused of armed robbery. Masculine Genitive 'eines'.",
             "de": "Maskulin Genitiv 'eines'."
         },
@@ -12609,7 +12609,7 @@ var data = [
             "de": "Werden."
         },
         "explanation": {
-            "es": "Uso administrativo extremo. Genitivo femenino 'der'.",
+            "es": "La preposición 'Behufs' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Uso administrativo extremo. Genitivo femenino 'der'.",
             "en": "Extreme administrative usage. Feminine Genitive 'der'.",
             "de": "Kanzleisprache. Feminin Genitiv 'der'."
         },
@@ -12684,7 +12684,7 @@ var data = [
             "de": "An etwas (Dat) mangeln."
         },
         "explanation": {
-            "es": "Carecer de dinero suficiente. Dativo neutro 'am' (an dem).",
+            "es": "Truco: Pregunta '¿A quién?'. En español suele corresponder al objeto indirecto ('le'). Ejemplo: 'Le ayudo' (Dativo). Carecer de dinero suficiente. Dativo neutro 'am' (an dem).",
             "en": "Lack of sufficient money. Neuter Dative 'am'.",
             "de": "Neutrum Dativ 'dem'."
         },
@@ -12728,7 +12728,7 @@ var data = [
             "de": "Ermangeln: Genitiv."
         },
         "explanation": {
-            "es": "Carecer de infraestructura moderna. Genitivo femenino 'der'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Carecer de infraestructura moderna. Genitivo femenino 'der'.",
             "en": "Lack of modern infrastructure. Feminine Genitive 'der'.",
             "de": "Gehobener Stil. Feminin Genitiv 'der'."
         },
@@ -12848,7 +12848,7 @@ var data = [
             "de": "Es gibt: Akk."
         },
         "explanation": {
-            "es": "Por parte del gobierno. Genitivo femenino 'der'.",
+            "es": "La preposición 'Seitens' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Por parte del gobierno. Genitivo femenino 'der'.",
             "en": "On the part of the government. Feminine Genitive 'der'.",
             "de": "Feminin Genitiv 'der'."
         },
@@ -12881,7 +12881,7 @@ var data = [
             "de": "Werden: Nominativ / Passiv."
         },
         "explanation": {
-            "es": "Declarado culpable del crimen. Genitivo neutro 'des'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Declarado culpable del crimen. Genitivo neutro 'des'.",
             "en": "Convicted of the crime. Neuter Genitive 'des'.",
             "de": "Neutrum Genitiv 'des'."
         },
@@ -12925,7 +12925,7 @@ var data = [
             "de": "Ausfallen."
         },
         "explanation": {
-            "es": "Por falta de interés público. Genitivo neutro 'des'.",
+            "es": "La preposición 'Mangels' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Por falta de interés público. Genitivo neutro 'des'.",
             "en": "For lack of public interest. Neuter Genitive 'des'.",
             "de": "Neutrum Genitiv 'des'."
         },
@@ -12968,7 +12968,7 @@ var data = [
             "de": "Einer Sache (Gen) entbehren."
         },
         "explanation": {
-            "es": "Carece de toda prueba. Genitivo plural 'jeglicher'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Carece de toda prueba. Genitivo plural 'jeglicher'.",
             "en": "Lacks any proof. Plural Genitive 'jeglicher'.",
             "de": "Plural Genitiv 'jeglicher'."
         },
@@ -13085,7 +13085,7 @@ var data = [
             "de": "Anrufen: Akkusativ."
         },
         "explanation": {
-            "es": "A efectos de obtener información adicional. Genitivo femenino 'der'.",
+            "es": "La preposición 'Behufs' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). A efectos de obtener información adicional. Genitivo femenino 'der'.",
             "en": "For the purpose of additional information. Feminine Genitive 'der'.",
             "de": "Feminin Genitiv 'der'."
         },
@@ -13129,7 +13129,7 @@ var data = [
             "de": "Sein: Nominativ-Verb."
         },
         "explanation": {
-            "es": "Relevado de su cargo oficial. Genitivo neutro 'ihres'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Relevado de su cargo oficial. Genitivo neutro 'ihres'.",
             "en": "Relieved of their official office. Neuter Genitive 'ihres'.",
             "de": "Neutrum Genitiv 'ihres'."
         },
@@ -13215,7 +13215,7 @@ var data = [
             "de": "Sein."
         },
         "explanation": {
-            "es": "A lo largo de toda su vida. Genitivo neutro 'seines'.",
+            "es": "La preposición 'Zeit' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). A lo largo de toda su vida. Genitivo neutro 'seines'.",
             "en": "Throughout his entire life. Neuter Genitive 'seines'.",
             "de": "Neutrum Genitiv 'seines'."
         },
@@ -13258,7 +13258,7 @@ var data = [
             "de": "Sich rühmen: Genitiv."
         },
         "explanation": {
-            "es": "Se jacta de sus extraordinarios éxitos. Genitivo plural 'seiner'.",
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Se jacta de sus extraordinarios éxitos. Genitivo plural 'seiner'.",
             "en": "He boasts of his extraordinary successes. Plural Genitive 'seiner'.",
             "de": "Plural Genitiv 'seiner'."
         },
@@ -13278,6 +13278,2449 @@ var data = [
             {
                 "type": "adj",
                 "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 301,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Angesichts)",
+        "text": "Angesichts d___ drohenddrohend___ Gefahr {evakuierte} man das Haus.",
+        "noun": "Gefahr (f)",
+        "verbDesc": {
+            "es": "Evakuieren: Evacuar.",
+            "en": "Evakuieren: To evacuate.",
+            "de": "Evakuieren."
+        },
+        "explanation": {
+            "es": "La preposición 'Angesichts' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Angesichts (ante/en vista de) rige Genitivo. Femenino -> der, adj en.",
+            "en": "Angesichts takes Genitive.",
+            "de": "Angesichts + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Fern)",
+        "text": "Fern j___ menschlichmenschlich___ Zivilisation {lebte} er allein.",
+        "noun": "Zivilisation (f)",
+        "verbDesc": {
+            "es": "Leben: Vivir.",
+            "en": "Leben: To live.",
+            "de": "Leben."
+        },
+        "explanation": {
+            "es": "La preposición 'Fern' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Fern (lejos de) rige Genitivo. Jeder -> jeder (-er).",
+            "en": "Fern takes Genitive.",
+            "de": "Fern + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "eder",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Unweit)",
+        "text": "Unweit d___ altalt___ Rathauses {befindet} sich die Post.",
+        "noun": "Rathaus (n)",
+        "verbDesc": {
+            "es": "Sich befinden: Encontrarse.",
+            "en": "Sich befinden: To be located.",
+            "de": "Sich befinden."
+        },
+        "explanation": {
+            "es": "La preposición 'Unweit' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Unweit (no lejos de) rige Genitivo. Neutro -> des -en.",
+            "en": "Unweit takes Genitive.",
+            "de": "Unweit + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 304,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Kraft)",
+        "text": "Kraft mein___ offizielloffiziell___ Amtes {erkläre} ich das Gesetz für gültig.",
+        "noun": "Amt (n)",
+        "verbDesc": {
+            "es": "Erklären: Declarar.",
+            "en": "Erklären: To declare.",
+            "de": "Erklären."
+        },
+        "explanation": {
+            "es": "La preposición 'Kraft' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Kraft (en virtud de) rige Genitivo.",
+            "en": "Kraft takes Genitive.",
+            "de": "Kraft + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 305,
+        "level": "C2",
+        "case": "Dat/Gen",
+        "category": "Präposition Genitiv (Laut)",
+        "text": "Laut ein___ neuneu___ Studie {essen} die Menschen zu viel Zucker.",
+        "noun": "Studie (f)",
+        "verbDesc": {
+            "es": "Essen: Comer.",
+            "en": "Essen: To eat.",
+            "de": "Essen."
+        },
+        "explanation": {
+            "es": "La preposición 'Laut' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Laut (según) rige Genitivo (o Dativo). Femenino Gen -> einer -en.",
+            "en": "Laut takes Genitive.",
+            "de": "Laut + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 306,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Binnen)",
+        "text": "Binnen d___ ersterst___ Minuten {fiel} das Tor.",
+        "noun": "Minuten (pl)",
+        "verbDesc": {
+            "es": "Fallen: Caer.",
+            "en": "Fallen: To fall.",
+            "de": "Fallen."
+        },
+        "explanation": {
+            "es": "La preposición 'Binnen' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Binnen (en el plazo de) rige Genitivo. Plural -> der -en.",
+            "en": "Binnen takes Genitive.",
+            "de": "Binnen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 307,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Mangels)",
+        "text": "Mangels eindeutig___ Beweise {wurde} er freigesprochen.",
+        "noun": "Beweise (pl)",
+        "verbDesc": {
+            "es": "Freisprechen: Absolver (Passiv).",
+            "en": "Freisprechen: To acquit.",
+            "de": "Freisprechen."
+        },
+        "explanation": {
+            "es": "La preposición 'Mangels' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Mangels (por falta de) rige Genitivo sin artículo -> Adjetivo fuerte (-er).",
+            "en": "Mangels takes Genitive. Strong adj.",
+            "de": "Mangels + Genitiv (Stark)."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "er",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 308,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjetivo Sustantivado (Nom)",
+        "text": "Der Fremd___ {fragte} nach dem Weg.",
+        "noun": "Fremde (m)",
+        "verbDesc": {
+            "es": "Fragen: Preguntar.",
+            "en": "Fragen: To ask.",
+            "de": "Fragen."
+        },
+        "explanation": {
+            "es": "Nominativo Masc (der) -> débil (-e).",
+            "en": "Nom Masc (der) -> weak (-e).",
+            "de": "Nom Mask (der) -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 309,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjetivo Sustantivado (Nom)",
+        "text": "Ein Fremd___ {hat} nach dir gefragt.",
+        "noun": "Fremder (m)",
+        "verbDesc": {
+            "es": "Fragen: Preguntar.",
+            "en": "Fragen: To ask.",
+            "de": "Fragen."
+        },
+        "explanation": {
+            "es": "Nominativo Masc (ein) -> fuerte (-er).",
+            "en": "Nom Masc (ein) -> strong (-er).",
+            "de": "Nom Mask (ein) -> -er."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "er",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 310,
+        "level": "C2",
+        "case": "Dat",
+        "category": "Adjetivo Sustantivado (Dat)",
+        "text": "Wir {halfen} d___ Verletzt___ sofort.",
+        "noun": "Verletzte (m)",
+        "verbDesc": {
+            "es": "Helfen: Ayudar. (Dativo).",
+            "en": "Helfen: To help (Dat).",
+            "de": "Helfen: Dativ."
+        },
+        "explanation": {
+            "es": "Dativo Masc (dem) -> débil (-en).",
+            "en": "Dat Masc (dem) -> weak (-en).",
+            "de": "Dat Mask (dem) -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "level": "C2",
+        "case": "Akk",
+        "category": "Adjetivo Sustantivado (Akk)",
+        "text": "Sie {kümmert} sich um d___ Angestellt___ der Firma.",
+        "noun": "Angestellte (pl)",
+        "verbDesc": {
+            "es": "Sich kümmern: Ocuparse. (Um + Akk).",
+            "en": "Sich kümmern: To care for.",
+            "de": "Sich kümmern: Um + Akk."
+        },
+        "explanation": {
+            "es": "Akkusativ Plural (die) -> schwach (-en).",
+            "en": "Acc Plural (die) -> weak (-en).",
+            "de": "Akk Plural (die) -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "ie",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 312,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjetivo Sustantivado",
+        "text": "Er {ist} ein Deutsch___.",
+        "noun": "Deutsche (m)",
+        "verbDesc": {
+            "es": "Sein: Ser.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Nominativo Masc (ein) -> stark (-er).",
+            "en": "Nom Masc (ein) -> strong (-er).",
+            "de": "Nom Mask (ein) -> -er."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "er",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "level": "C2",
+        "case": "Dat",
+        "category": "Adjetivo Sustantivado",
+        "text": "Ich {sprach} mit ein___ Deutsch___.",
+        "noun": "Deutsche (m)",
+        "verbDesc": {
+            "es": "Sprechen: Hablar.",
+            "en": "Sprechen: To speak.",
+            "de": "Sprechen."
+        },
+        "explanation": {
+            "es": "Dativo Masc (einem) -> schwach (-en).",
+            "en": "Dat Masc (einem) -> weak (-en).",
+            "de": "Dat Mask (einem) -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 314,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Partizip I als Adjektiv",
+        "text": "Das weinend___ Kind {sucht} seine Mutter.",
+        "noun": "Kind (n)",
+        "verbDesc": {
+            "es": "Suchen: Buscar.",
+            "en": "Suchen: To search.",
+            "de": "Suchen."
+        },
+        "explanation": {
+            "es": "Partizip I (llorando). Nom Neutro (das) -> -e.",
+            "en": "Participle I. Nom Neut (das) -> -e.",
+            "de": "Partizip I. Nom Neut (das) -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 315,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Partizip II als Adjektiv",
+        "text": "Die geöffnet___ Fenster {lassen} kalte Luft herein.",
+        "noun": "Fenster (pl)",
+        "verbDesc": {
+            "es": "Lassen: Dejar/Permitir.",
+            "en": "Lassen: To let.",
+            "de": "Lassen."
+        },
+        "explanation": {
+            "es": "Partizip II (abierto). Nom Plural (die) -> -en.",
+            "en": "Participle II. Nom Plural (die) -> -en.",
+            "de": "Partizip II. Nom Plural (die) -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 316,
+        "level": "C2",
+        "case": "Akk",
+        "category": "Partizip I als Adjektiv",
+        "text": "Wir {beobachteten} die spielend___ Kinder.",
+        "noun": "Kinder (pl)",
+        "verbDesc": {
+            "es": "Beobachten: Observar. (Akk).",
+            "en": "Beobachten: To observe.",
+            "de": "Beobachten."
+        },
+        "explanation": {
+            "es": "Akk Plural (die) -> -en.",
+            "en": "Acc Plural (die) -> -en.",
+            "de": "Akk Plural (die) -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 317,
+        "level": "C2",
+        "case": "Akk",
+        "category": "Partizip II als Adjektiv",
+        "text": "Er {reparierte} das zerstört___ Auto.",
+        "noun": "Auto (n)",
+        "verbDesc": {
+            "es": "Genitiv (Posesión).",
+            "en": "Genitive.",
+            "de": "Genitiv."
+        },
+        "explanation": {
+            "es": "Akk Neutro (das) -> -e.",
+            "en": "Acc Neut (das) -> -e.",
+            "de": "Akk Neut (das) -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 318,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Verbo con Genitivo",
+        "text": "Wir {gedenken} d___ gefallen___ Soldaten.",
+        "noun": "Soldaten (pl)",
+        "verbDesc": {
+            "es": "Gedenken: Conmemorar/Recordar. (Genitivo).",
+            "en": "Gedenken: To commemorate. (Genitive).",
+            "de": "Gedenken: Genitiv."
+        },
+        "explanation": {
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Gedenken rige Genitivo. Plural (der) -> schwach (-en).",
+            "en": "Gedenken takes Genitive.",
+            "de": "Gedenken + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 319,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Verbo con Genitivo",
+        "text": "Der Patient {bedarf} dringend___ Hilfe.",
+        "noun": "Hilfe (f)",
+        "verbDesc": {
+            "es": "Bedürfen: Necesitar/Requerir. (Genitivo).",
+            "en": "Bedürfen: To need. (Genitive).",
+            "de": "Bedürfen: Genitiv."
+        },
+        "explanation": {
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Bedürfen rige Genitivo. Sin artículo -> Fuerte (-er).",
+            "en": "Bedürfen takes Genitive.",
+            "de": "Bedürfen + Genitiv (Stark)."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Verbo con Genitivo (Passiv)",
+        "text": "Er {wurde} d___ vorsaetzlich___ Mordes angeklagt.",
+        "noun": "Mord (m)",
+        "verbDesc": {
+            "es": "Anklagen: Acusar. (Genitivo).",
+            "en": "Anklagen: To accuse. (Genitive).",
+            "de": "Anklagen: Genitiv."
+        },
+        "explanation": {
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Genitivo Masculino (des) -> schwach (-en).",
+            "en": "Gen Masc (des) -> weak (-en).",
+            "de": "Gen Mask (des) -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 321,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Verbo con Genitivo (Reflexiv)",
+        "text": "Sie {enthielt} sich j___ weitere___ Aussage.",
+        "noun": "Aussage (f)",
+        "verbDesc": {
+            "es": "Sich enthalten: Abstenerse de. (Genitivo).",
+            "en": "Sich enthalten: To abstain. (Genitive).",
+            "de": "Sich enthalten: Genitiv."
+        },
+        "explanation": {
+            "es": "Truco: Este es un verbo de régimen genitivo (uso culto). Se pregunta '¿De qué/quién?'. Genitivo Femenino (jeder) -> schwach (-en).",
+            "en": "Gen Fem (jeder) -> weak (-en).",
+            "de": "Gen Fem (jeder) -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "eder",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "n",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 322,
+        "level": "C2",
+        "case": "Akk",
+        "category": "N-Deklination",
+        "text": "Der Polizist {verhaftete} d___ flüchtig___ Studenten.",
+        "noun": "Student (m, N-Dekl)",
+        "verbDesc": {
+            "es": "Verhaften: Arrestar.",
+            "en": "Verhaften: To arrest.",
+            "de": "Verhaften."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Student' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. Student es N-Deklination (Akk -> -en).",
+            "en": "Student is N-Decl (Acc -> -en).",
+            "de": "Student ist N-Dekl."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "en",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 323,
+        "level": "C2",
+        "case": "Dat",
+        "category": "N-Deklination",
+        "text": "Ich {begegnete} ein___ bekannt___ Biologen.",
+        "noun": "Biologe (m, N-Dekl)",
+        "verbDesc": {
+            "es": "Begegnen: Encontrarse con. (Dativo).",
+            "en": "Begegnen: To meet (Dat).",
+            "de": "Begegnen: Dativ."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Biologe' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. Biologe es N-Deklination. Dativo Masc -> -en.",
+            "en": "Biologe is N-Decl.",
+            "de": "Biologe ist N-Dekl."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 324,
+        "level": "C2",
+        "case": "Gen",
+        "category": "N-Deklination",
+        "text": "Der Name d___ neu___ Kollegen ist mir unbekannt.",
+        "noun": "Kollege (m, N-Dekl)",
+        "verbDesc": {
+            "es": "Sein: Ser.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Kollege' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. Kollege es N-Dekl. Genitivo Masc -> -en.",
+            "en": "Kollege is N-Decl.",
+            "de": "Kollege ist N-Dekl."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 325,
+        "level": "C2",
+        "case": "Dat",
+        "category": "N-Deklination",
+        "text": "Wir {gaben} d___ hungrig___ Affen eine Banane.",
+        "noun": "Affe (m, N-Dekl)",
+        "verbDesc": {
+            "es": "Geben: Dar.",
+            "en": "Geben: To give.",
+            "de": "Geben."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Affe' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. Affe es N-Dekl. Dativo Masc -> -en.",
+            "en": "Affe is N-Decl.",
+            "de": "Affe ist N-Dekl."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 326,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjektiv nach Quantifizierer",
+        "text": "Sämtliche neu___ Bücher {sind} ausverkauft.",
+        "noun": "Bücher (pl)",
+        "verbDesc": {
+            "es": "Sein: Ser.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Tras 'alle/sämtliche' (determinantes), el adjetivo sigue la declinación débil (-en). Nach 'sämtliche' (Plural) -> schwach (-en).",
+            "en": "After 'sämtliche' -> weak (-en).",
+            "de": "Nach 'sämtliche' -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 327,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjektiv nach Quantifizierer",
+        "text": "Viele gut___ Freunde {kamen} zum Fest.",
+        "noun": "Freunde (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Tras 'viele/einige' (indefinidos), el adjetivo suele seguir la declinación fuerte (-e en Nominativo Plural). Nach 'viele' (Plural) -> stark (-e).",
+            "en": "After 'viele' -> strong (-e).",
+            "de": "Nach 'viele' -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 328,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Adjektiv nach Quantifizierer",
+        "text": "Einige schwierig___ Fragen {blieben} offen.",
+        "noun": "Fragen (pl)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To remain.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "Tras 'viele/einige' (indefinidos), el adjetivo suele seguir la declinación fuerte (-e en Nominativo Plural). Nach 'einige' (Plural) -> stark (-e).",
+            "en": "After 'einige' -> strong (-e).",
+            "de": "Nach 'einige' -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 329,
+        "level": "C2",
+        "case": "Dat",
+        "category": "Nullartikel (Starke Deklination)",
+        "text": "Mit groß___ Interesse {las} er das Buch.",
+        "noun": "Interesse (n)",
+        "verbDesc": {
+            "es": "Lesen: Leer.",
+            "en": "Lesen: To read.",
+            "de": "Lesen."
+        },
+        "explanation": {
+            "es": "Sin artículo. Dativo Neutro -> stark (-em).",
+            "en": "No article. Dat Neut -> strong (-em).",
+            "de": "Ohne Artikel. Dat Neut -> -em."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "em",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 330,
+        "level": "C2",
+        "case": "Akk",
+        "category": "Nullartikel (Starke Deklination)",
+        "text": "Ich {trinke} gerne kalt___ Wasser.",
+        "noun": "Wasser (n)",
+        "verbDesc": {
+            "es": "Trinken: Beber.",
+            "en": "Trinken: To drink.",
+            "de": "Trinken."
+        },
+        "explanation": {
+            "es": "Sin artículo. Akk Neutro -> stark (-es).",
+            "en": "No article. Acc Neut -> strong (-es).",
+            "de": "Ohne Artikel. Akk Neut -> -es."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "es",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 331,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Jenseits)",
+        "text": "Jenseits d___ hohhoh___ Berge {liegt} das Tal.",
+        "noun": "Berge (pl)",
+        "verbDesc": {
+            "es": "Liegen: Estar situado.",
+            "en": "Liegen: To lie.",
+            "de": "Liegen."
+        },
+        "explanation": {
+            "es": "La preposición 'Jenseits' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Jenseits (más allá de) rige Genitivo. Plural -> der -en.",
+            "en": "Jenseits takes Genitive.",
+            "de": "Jenseits + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 332,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Diesseits)",
+        "text": "Diesseits d___ breitbreit___ Flusses {stehen} Bäume.",
+        "noun": "Fluss (m)",
+        "verbDesc": {
+            "es": "Stehen: Estar de pie.",
+            "en": "Stehen: To stand.",
+            "de": "Stehen."
+        },
+        "explanation": {
+            "es": "La preposición 'Diesseits' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Diesseits (a este lado de) rige Genitivo. Masc -> des -en.",
+            "en": "Diesseits takes Genitive.",
+            "de": "Diesseits + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 333,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Oberhalb)",
+        "text": "Oberhalb d___ altalt___ Burg {gibt} es einen Aussichtspunkt.",
+        "noun": "Burg (f)",
+        "verbDesc": {
+            "es": "Geben: Haber (Es gibt).",
+            "en": "Geben: To be (There is).",
+            "de": "Geben."
+        },
+        "explanation": {
+            "es": "La preposición 'Oberhalb' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Oberhalb (por encima de) rige Genitivo. Fem -> der -en.",
+            "en": "Oberhalb takes Genitive.",
+            "de": "Oberhalb + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 334,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Unterhalb)",
+        "text": "Unterhalb d___ rot___ Linie {darf} man nicht schreiben.",
+        "noun": "Linie (f)",
+        "verbDesc": {
+            "es": "Dürfen: Poder/Tener permiso.",
+            "en": "Dürfen: Allowed to.",
+            "de": "Dürfen."
+        },
+        "explanation": {
+            "es": "La preposición 'Unterhalb' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Unterhalb (por debajo de) rige Genitivo. Fem -> der -en.",
+            "en": "Unterhalb takes Genitive.",
+            "de": "Unterhalb + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 335,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Anstatt)",
+        "text": "Anstatt ein___ neuneu___ Autos {kaufte} er ein Fahrrad.",
+        "noun": "Auto (n)",
+        "verbDesc": {
+            "es": "Genitiv (Posesión).",
+            "en": "Genitive.",
+            "de": "Genitiv."
+        },
+        "explanation": {
+            "es": "La preposición 'Anstatt' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Anstatt (en lugar de) rige Genitivo. Neutro -> eines -en.",
+            "en": "Anstatt takes Genitive.",
+            "de": "Anstatt + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 336,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Trotz)",
+        "text": "Trotz d___ schlechtschlecht___ Wetters {gingen} wir spazieren.",
+        "noun": "Wetter (n)",
+        "verbDesc": {
+            "es": "Gehen: Ir/Caminar.",
+            "en": "Gehen: To go.",
+            "de": "Gehen."
+        },
+        "explanation": {
+            "es": "La preposición 'Trotz' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Trotz (a pesar de) rige Genitivo. Neutro -> des -en.",
+            "en": "Trotz takes Genitive.",
+            "de": "Trotz + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 337,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Während)",
+        "text": "Während mein___ ganzganz___ Urlaubs {regnete} es.",
+        "noun": "Urlaub (m)",
+        "verbDesc": {
+            "es": "Regnen: Llover.",
+            "en": "Regnen: To rain.",
+            "de": "Regnen."
+        },
+        "explanation": {
+            "es": "La preposición 'Während' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Während (durante) rige Genitivo. Masc -> meines -en.",
+            "en": "Während takes Genitive.",
+            "de": "Während + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 338,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Wegen)",
+        "text": "Wegen ihr___ schwerschwer___ Krankheit {blieb} sie im Bett.",
+        "noun": "Krankheit (f)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To stay.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "La preposición 'Wegen' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Wegen (debido a) rige Genitivo. Fem -> ihrer -en.",
+            "en": "Wegen takes Genitive.",
+            "de": "Wegen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 339,
+        "level": "C2",
+        "case": "Nom",
+        "category": "Superlativ (Nom)",
+        "text": "Er {ist} der klüg___ Schüler der Klasse.",
+        "noun": "Schüler (m)",
+        "verbDesc": {
+            "es": "Sein: Ser.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Superlativo después de 'der' -> -e (weak).",
+            "en": "Superlative after 'der' -> -e.",
+            "de": "Superlativ -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "ste",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 340,
+        "level": "C2",
+        "case": "Akk",
+        "category": "Komparativ (Akk)",
+        "text": "Wir {suchen} eine besser___ Lösung.",
+        "noun": "Lösung (f)",
+        "verbDesc": {
+            "es": "Suchen: Buscar.",
+            "en": "Suchen: To search.",
+            "de": "Suchen."
+        },
+        "explanation": {
+            "es": "Komparativ 'besser'. Akk Fem (eine) -> gemischt (-e).",
+            "en": "Comparative. Acc Fem -> -e.",
+            "de": "Komparativ. Akk Fem -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 341,
+        "level": "C2",
+        "case": "Dat",
+        "category": "Komparativ (Dat)",
+        "text": "Mit groß___ Aufwand {hätten} wir es geschafft.",
+        "noun": "Aufwand (m)",
+        "verbDesc": {
+            "es": "Schaffen: Lograr.",
+            "en": "Schaffen: To manage.",
+            "de": "Schaffen."
+        },
+        "explanation": {
+            "es": "Komparativ 'größer'. Dat Masc (ohne Artikel) -> stark (-em).",
+            "en": "Comp. Dat Masc (no art) -> -em.",
+            "de": "Komp. Dat Mask -> -em."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "erem",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 342,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Redewendung (Genitiv)",
+        "text": "Wir {kamen} d___ SachSach___ auf den Grund.",
+        "noun": "Sache (f)",
+        "verbDesc": {
+            "es": "Kommen: Venir (aquí: ir al fondo).",
+            "en": "Kommen: To come (get to bottom).",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Genitivo Femenino. 'Ir al fondo DE la cosa'.",
+            "en": "Genitive Feminine.",
+            "de": "Genitiv Feminin."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 343,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Redewendung (Genitiv)",
+        "text": "Er {ist} gut___ Dinge.",
+        "noun": "Dinge (pl)",
+        "verbDesc": {
+            "es": "Sein: Estar (de buen humor).",
+            "en": "Sein: To be (in good spirits).",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Genitivo Plural sin artículo. 'Estar de buen ánimo'.",
+            "en": "Genitive Plural.",
+            "de": "Genitiv Plural."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 344,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Adjektiv mit Genitiv",
+        "text": "Sie {ist} voll tief___ Trauer.",
+        "noun": "Trauer (f)",
+        "verbDesc": {
+            "es": "Sein: Estar.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Voll rige a veces Genitivo. Fem -> stark (-er).",
+            "en": "Voll + Genitive.",
+            "de": "Voll + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 345,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Genitivattribut",
+        "text": "Die Entwicklung d___ neu___ Software {dauert} lange.",
+        "noun": "Software (f)",
+        "verbDesc": {
+            "es": "Dauern: Durar.",
+            "en": "Dauern: To last.",
+            "de": "Dauern."
+        },
+        "explanation": {
+            "es": "Indica posesión o pertenencia ('de quién'). Rige siempre Genitivo. Genitivo Femenino (der) -> schwach (-en).",
+            "en": "Gen Fem -> -en.",
+            "de": "Gen Fem -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 346,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Genitivattribut",
+        "text": "Der Preis d___ rot___ Weines {ist} gestiegen.",
+        "noun": "Wein (m)",
+        "verbDesc": {
+            "es": "Steigen: Subir.",
+            "en": "Steigen: To rise.",
+            "de": "Steigen."
+        },
+        "explanation": {
+            "es": "Indica posesión o pertenencia ('de quién'). Rige siempre Genitivo. Genitivo Masc (des) -> schwach (-en).",
+            "en": "Gen Masc -> -en.",
+            "de": "Gen Mask -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 347,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Genitivattribut",
+        "text": "Das Dach d___ klein___ Hauses {muss} repariert werden.",
+        "noun": "Haus (n)",
+        "verbDesc": {
+            "es": "Müssen: Deber.",
+            "en": "Müssen: Must.",
+            "de": "Müssen."
+        },
+        "explanation": {
+            "es": "Indica posesión o pertenencia ('de quién'). Rige siempre Genitivo. Genitivo Neutro (des) -> schwach (-en).",
+            "en": "Gen Neut -> -en.",
+            "de": "Gen Neut -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 348,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Genitivattribut",
+        "text": "Die Farbe mein___ neu___ Kleides {gefällt} mir.",
+        "noun": "Kleid (n)",
+        "verbDesc": {
+            "es": "Gefallen: Gustar.",
+            "en": "Gefallen: To like.",
+            "de": "Gefallen."
+        },
+        "explanation": {
+            "es": "Indica posesión o pertenencia ('de quién'). Rige siempre Genitivo. Genitivo Neutro (meines) -> schwach (-en).",
+            "en": "Gen Neut -> -en.",
+            "de": "Gen Neut -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 349,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Genitivattribut",
+        "text": "Die Meinung mein___ alt___ Eltern {ist} mir wichtig.",
+        "noun": "Eltern (pl)",
+        "verbDesc": {
+            "es": "Sein: Ser.",
+            "en": "Sein: To be.",
+            "de": "Sein."
+        },
+        "explanation": {
+            "es": "Indica posesión o pertenencia ('de quién'). Rige siempre Genitivo. Genitivo Plural (meiner) -> schwach (-en).",
+            "en": "Gen Pl -> -en.",
+            "de": "Gen Pl -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "-",
+                    "e",
+                    "en",
+                    "em",
+                    "er",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 350,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Variations)",
+        "text": "Wegen d___ stark___ Windes... {blieben} wir zu Hause.",
+        "noun": "Wind (m)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To stay.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "La preposición 'Variations' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Wegen + Genitiv (Wind (m)).",
+            "en": "Wegen + Genitive.",
+            "de": "Wegen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 351,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Variations)",
+        "text": "Wegen d___ groß___ Hitze... {blieben} wir zu Hause.",
+        "noun": "Hitze (f)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To stay.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "La preposición 'Variations' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Wegen + Genitiv (Hitze (f)).",
+            "en": "Wegen + Genitive.",
+            "de": "Wegen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 352,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Variations)",
+        "text": "Wegen d___ schön___ Wetters... {blieben} wir zu Hause.",
+        "noun": "Wetter (n)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To stay.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "La preposición 'Variations' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Wegen + Genitiv (Wetter (n)).",
+            "en": "Wegen + Genitive.",
+            "de": "Wegen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 353,
+        "level": "C2",
+        "case": "Gen",
+        "category": "Präposition Genitiv (Variations)",
+        "text": "Wegen d___ hochen___ Kosten... {blieben} wir zu Hause.",
+        "noun": "Kosten (pl)",
+        "verbDesc": {
+            "es": "Bleiben: Quedarse.",
+            "en": "Bleiben: To stay.",
+            "de": "Bleiben."
+        },
+        "explanation": {
+            "es": "La preposición 'Variations' (o similar) es culta y siempre rige Genitivo (el caso de la pertenencia). Wegen + Genitiv (Kosten (pl)).",
+            "en": "Wegen + Genitive.",
+            "de": "Wegen + Genitiv."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "er",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 354,
+        "level": "C2",
+        "case": "Akk",
+        "category": "N-Deklination",
+        "text": "Ich {sehe} d___ klein___ Bären.",
+        "noun": "Bär (m)",
+        "verbDesc": {
+            "es": "Sehen: Ver.",
+            "en": "Sehen: To see.",
+            "de": "Sehen."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Bär' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. N-Deklination -> -en.",
+            "en": "N-Declension -> -en.",
+            "de": "N-Deklination -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "en",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 355,
+        "level": "C2",
+        "case": "Dat",
+        "category": "N-Deklination",
+        "text": "Er {hilft} d___ krank___ Nachbarn.",
+        "noun": "Nachbar (m)",
+        "verbDesc": {
+            "es": "Helfen: Ayudar.",
+            "en": "Helfen: To help.",
+            "de": "Helfen."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Nachbar' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. N-Deklination -> -en.",
+            "en": "N-Declension -> -en.",
+            "de": "N-Deklination -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 356,
+        "level": "C2",
+        "case": "Gen",
+        "category": "N-Deklination",
+        "text": "Das Auto d___ neu___ Kunden. {ist} teuer.",
+        "noun": "Kunde (m)",
+        "verbDesc": {
+            "es": "Genitiv (Posesión).",
+            "en": "Genitive.",
+            "de": "Genitiv."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Kunde' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. N-Deklination -> -en.",
+            "en": "N-Declension -> -en.",
+            "de": "N-Deklination -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "es",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 357,
+        "level": "C2",
+        "case": "Dat",
+        "category": "N-Deklination",
+        "text": "Wir {folgen} d___ fremd___ Menschen.",
+        "noun": "Mensch (m)",
+        "verbDesc": {
+            "es": "Folgen: Seguir.",
+            "en": "Folgen: To follow.",
+            "de": "Folgen."
+        },
+        "explanation": {
+            "es": "¡Ojo! 'Mensch' pertenece a la N-Deklination. En Acusativo, Dativo y Genitivo añade '-n' o '-en'. N-Deklination -> -en.",
+            "en": "N-Declension -> -en.",
+            "de": "N-Deklination -> -en."
+        },
+        "slots": [
+            {
+                "type": "art",
+                "answer": "em",
+                "options": [
+                    "er",
+                    "ie",
+                    "as",
+                    "en",
+                    "em",
+                    "es"
+                ]
+            },
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 358,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Alle neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Tras 'alle/sämtliche' (determinantes), el adjetivo sigue la declinación débil (-en). Nach 'Alle' -> Plural -en.",
+            "en": "After 'Alle' -> -en.",
+            "de": "Nach 'Alle' -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 359,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Manche neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Nach 'Manche' -> Plural -en.",
+            "en": "After 'Manche' -> -en.",
+            "de": "Nach 'Manche' -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 360,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Solche neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Nach 'Solche' -> Plural -en.",
+            "en": "After 'Solche' -> -en.",
+            "de": "Nach 'Solche' -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 361,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Keine neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Nach 'Keine' -> Plural -en.",
+            "en": "After 'Keine' -> -en.",
+            "de": "Nach 'Keine' -> -en."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "en",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 362,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Viele neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Tras 'viele/einige' (indefinidos), el adjetivo suele seguir la declinación fuerte (-e en Nominativo Plural). Nach 'Viele' -> Plural -e.",
+            "en": "After 'Viele' -> -e.",
+            "de": "Nach 'Viele' -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 363,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Einige neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Tras 'viele/einige' (indefinidos), el adjetivo suele seguir la declinación fuerte (-e en Nominativo Plural). Nach 'Einige' -> Plural -e.",
+            "en": "After 'Einige' -> -e.",
+            "de": "Nach 'Einige' -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
+                "options": [
+                    "e",
+                    "en",
+                    "er",
+                    "es",
+                    "em"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 364,
+        "level": "C1",
+        "case": "Nom",
+        "category": "Adj nach Quantifizierer",
+        "text": "Mehrere neu___ Studenten {kamen} zu spät.",
+        "noun": "Studenten (pl)",
+        "verbDesc": {
+            "es": "Kommen: Venir.",
+            "en": "Kommen: To come.",
+            "de": "Kommen."
+        },
+        "explanation": {
+            "es": "Nach 'Mehrere' -> Plural -e.",
+            "en": "After 'Mehrere' -> -e.",
+            "de": "Nach 'Mehrere' -> -e."
+        },
+        "slots": [
+            {
+                "type": "adj",
+                "answer": "e",
                 "options": [
                     "e",
                     "en",
